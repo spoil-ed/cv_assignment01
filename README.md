@@ -65,7 +65,7 @@ scipy>=1.7.0
 python src/train.py
 ```
 - 默认数据路径：`data/cifar-10-batches-py/`。
-- 训练结果（权重、日志、数据）保存至 `experiments/`。
+- 训练结果（权重、日志、数据）保存至 `experiments/results/`。
 - 可通过修改 `src/train.py` 中的超参数（如 `lrs`, `regs`, `conv1_filters_list`）自定义调优范围。
 
 ### 3. 预测
@@ -73,7 +73,7 @@ python src/train.py
 ```bash
 python src/predict.py
 ```
-- 默认权重路径：`experiments/best_model_weights.npz`。
+- 默认权重路径：`experiments/results/best_model_weights.npz`。
 - 支持测试集批量预测或单张图像预测（需修改代码指定图像路径）。
 - 输出预测类别、概率和测试集准确率。
 
@@ -109,6 +109,6 @@ python src/visualize.py
 ## 注意事项
 
 - **硬件要求**: 需要 NVIDIA GPU 和 CUDA 支持以使用 CuPy。若无 GPU，可尝试将 CuPy 替换为 NumPy（参考 `src_numpy/` 中的代码）。
-- **权重文件**: 确保 `experiments/best_model_weights.npz` 存在，否则预测和可视化可能使用随机权重。
+- **权重文件**: 确保 `experiments/results/best_model_weights.npz` 存在，否则预测和可视化可能使用随机权重。
 - **路径配置**: 默认路径基于 `/home/spoil/cv/assignment01/`，请根据实际环境调整。
 - **批归一化参数历史**: `src/visualize.py` 中批归一化参数历史为模拟数据，实际使用需在训练时记录。
