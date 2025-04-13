@@ -4,7 +4,8 @@ import numpy as np
 import cupy as cp
 from PIL import Image
 from model import Conv3LayerNN
-from utils import load_cifar10_data, setup_logging
+from tqdm import tqdm
+from utils import load_cifar10_data, setup_logging, get_project_paths
 
 # CIFAR-10 类别名称
 CIFAR10_CLASSES = [
@@ -44,7 +45,7 @@ def load_model(weights_path="experiments/best_model_weights.npz"):
     print("正在加载模型权重：{}...".format(weights_path))
     try:
         weights = np.load(weights_path)
-        model.W1 = cp.asarray(weights['W1'])  # 转换为 CuPy 数组
+        model.W1 = cp.asarray(weights['W1'])
         model.b1 = cp.asarray(weights['b1'])
         model.W2 = cp.asarray(weights['W2'])
         model.b3 = cp.asarray(weights['b3'])
@@ -63,15 +64,6 @@ def load_model(weights_path="experiments/best_model_weights.npz"):
     return model
 
 def predict(model, data, labels=None, batch_size=32, is_single_image=False):
-    """
-    使用模型进行预测。
-    参数：
-        model: 加载的 Conv3LayerNN 模型
-        data: 输入数据，形状为 (N, 32, 32, 3) 或 (1, 32, 32, 3)
-        labels: 可选的真实标签，用于计算准确率
-        batch_size: 批量预测的批次大小
-        is_single_image: 是否为单张图像预测
-    """
     if model is None:
         print("模型未加载，无法进行预测！")
         return
@@ -80,8 +72,9 @@ def predict(model, data, labels=None, batch_size=32, is_single_image=False):
     print("正在对测试集进行批量预测...")
     num_samples = data.shape[0]
     all_probs = []
-    for i in range(0, num_samples, batch_size):
-        print(f"处理批次 {i//batch_size + 1}/{(num_samples + batch_size - 1)//batch_size}...")
+    for i in tqdm(range(0, num_samples, batch_size), 
+              total=(num_samples + batch_size - 1)//batch_size, 
+              desc="处理批次"):
         batch_data = data[i:i + batch_size]
         batch_probs = model.forward(batch_data)
         all_probs.append(cp.asnumpy(batch_probs))
@@ -105,26 +98,27 @@ def predict(model, data, labels=None, batch_size=32, is_single_image=False):
     return all_probs
 
 if __name__ == '__main__':
+    paths = get_project_paths()
+    
     # 设置日志
     print("开始运行预测程序...")
-    setup_logging(log_dir="experiments/logs")
+    setup_logging()
     logging.info("开始模型预测...")
 
     # 输入模型权重路径
     weights_path = input("请输入模型权重路径（默认：experiments/best_model_weights.npz）：").strip()
     if not weights_path:
-        weights_path = "/home/spoil/cv/assignment01/experiments/best_model_weights.npz"
+        weights_path = paths['weights_path']
 
     # 加载模型
     model = load_model(weights_path)
     if model is None:
         exit(1)
 
-    
     # 测试集预测
     data_dir = input("请输入 CIFAR-10 数据目录（默认：data/cifar-10-batches-py）：").strip()
     if not data_dir:
-        data_dir = "/home/spoil/cv/assignment01/data/cifar-10-python/cifar-10-batches-py"
+        data_dir = paths['data_dir']
     
     print("正在加载 CIFAR-10 测试数据...")
     try:

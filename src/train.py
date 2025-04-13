@@ -5,11 +5,12 @@ import numpy as np
 from tqdm import tqdm
 from datetime import datetime
 from model import Conv3LayerNN
-from utils import load_cifar10_data, setup_logging
+from utils import load_cifar10_data, setup_logging, get_project_paths
 import matplotlib.pyplot as plt
 
 # 训练
 def train(model, train_data, train_labels, valid_data, valid_labels, lr, reg_lambda, batch_size, epochs, lr_decay=0.95, visualize=False):
+    paths = get_project_paths()
     num_samples = train_data.shape[0]
     best_val_acc = 0.0
     train_losses, train_accs, val_losses, val_accs = [], [], [], []
@@ -68,7 +69,7 @@ def train(model, train_data, train_labels, valid_data, valid_labels, lr, reg_lam
             beta1_np = cp.asnumpy(model.beta1)
             gamma2_np = cp.asnumpy(model.gamma2)
             beta2_np = cp.asnumpy(model.beta2)
-            np.savez('/home/spoil/cv/assignment01/experiments/best_model_weights.npz', 
+            np.savez(paths['weights_path'],
                      W1=W1_np, b1=b1_np, W2=W2_np, b2=b2_np, W3=W3_np, b3=b3_np, gamma1 = gamma1_np, beta1 = beta1_np, gamma2 = gamma2_np, beta2 = beta2_np)
         
         # lr *= lr_decay
@@ -92,7 +93,7 @@ def train(model, train_data, train_labels, valid_data, valid_labels, lr, reg_lam
         plt.title('Validation Accuracy')
         plt.legend()
         plt.show()
-    np.savez('/home/spoil/cv/assignment01/experiments/data.npz', train_losses=train_losses, train_accs = train_accs, val_losses=val_losses, val_accs=val_accs)
+    np.savez(paths['data_npz_path'], train_losses=train_losses, train_accs = train_accs, val_losses=val_losses, val_accs=val_accs)
     return train_losses, train_accs, val_losses, val_accs
 
 def hyperparameter_search(ModelClass = Conv3LayerNN, 
@@ -103,9 +104,12 @@ def hyperparameter_search(ModelClass = Conv3LayerNN,
                           batch_size=32, 
                           epochs=5, 
                           lr_decay=0.95,
-                          save_dir = "/home/spoil/cv/assignment01/experiments"
+                          save_dir = None
                           ):
     logging.info("Starting hyperparameter search...")
+    if save_dir is None:
+        save_dir = paths['experiments_dir']
+
     best_acc = 0.0
     best_lr = None
     best_reg = None
@@ -148,18 +152,12 @@ def hyperparameter_search(ModelClass = Conv3LayerNN,
     print(f"lr 和 reg 调参结果已保存至 {save_dir}/hyperparam_lr_reg.npz")
 
     
-    best_lr = 0.01
-    best_reg = 0.001
-    fixed_lr = best_lr                      # 固定学习率
-    fixed_reg = best_reg                    # 固定正则化系数
-
-    
     best_acc = 0.0
     best_conv1_filters = None
     best_conv2_filters = None
     print("开始实验 2：卷积核个数...")
-    fixed_lr = best_lr                      # 固定学习率
-    fixed_reg = best_reg                    # 固定正则化系数
+    fixed_lr = best_lr                      
+    fixed_reg = best_reg                    
     val_accs_conv_filters = np.zeros((len(conv1_filters_list), len(conv2_filters_list)))
 
     for i, conv1_filters in enumerate(conv1_filters_list):
@@ -205,17 +203,15 @@ def evaluate(model, data, labels, batch_size = 32):
     return acc
 
 if __name__ == '__main__':
+    paths = get_project_paths()
     # 设置日志
-    setup_logging(log_dir="/home/spoil/cv/assignment01/experiments/logs")
+    setup_logging()
     logging.info("Starting CIFAR-10 training...")
 
     print("Loading CIFAR-10 data...")
-    data_dir = "/home/spoil/cv/assignment01/data/cifar-10-python/cifar-10-batches-py/"
-    train_data, train_labels, valid_data, valid_labels, test_data, test_labels = load_cifar10_data(data_dir, test = False)
+    train_data, train_labels, valid_data, valid_labels, test_data, test_labels = load_cifar10_data(data_dir=paths['data_dir'], test = True)
     
     print("hyperparameter search...")
-    best_lr, best_reg, best_conv1_filters, best_conv2_filters = 0.01, 0.001, 64, 64
-    """
     best_lr, best_reg, best_conv1_filters, best_conv2_filters = hyperparameter_search(ModelClass = Conv3LayerNN, 
                                                                                     lrs = [0.015, 0.01, 0.095], 
                                                                                     regs = [0.1, 0.01, 0.001],
@@ -225,7 +221,6 @@ if __name__ == '__main__':
                                                                                     batch_size=32, 
                                                                                     epochs=5, 
                                                                                     )
-    """
                                                                                         
     print("Training model...")
 

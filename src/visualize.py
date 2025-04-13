@@ -7,7 +7,7 @@ import seaborn as sns
 import logging
 from tqdm import tqdm
 from model import Conv3LayerNN
-from utils import load_cifar10_data, setup_logging
+from utils import load_cifar10_data, setup_logging, get_project_paths
 
 CIFAR10_CLASSES = [
     'airplane', 'automobile', 'bird', 'cat', 'deer',
@@ -16,7 +16,7 @@ CIFAR10_CLASSES = [
 
 def plot_training_curves(train_losses, val_losses, val_accs, epochs, save_dir="experiments/plots"):
     """
-    绘制训练集和验证集损失曲线，以及验证集准确率曲线，y轴范围自适应数据值。
+    绘制训练集和验证集损失曲线，以及验证集准确率曲线
     """
     print("正在生成训练集和验证集损失曲线...")
     if not os.path.exists(save_dir):
@@ -31,7 +31,7 @@ def plot_training_curves(train_losses, val_losses, val_accs, epochs, save_dir="e
     plt.title('Training and Validation Loss')
     plt.legend()
     plt.grid(True)
-    # 自适应 y 轴范围，添加 10% 边距
+    
     all_losses = np.concatenate([train_losses, val_losses])
     y_min, y_max = np.min(all_losses), np.max(all_losses)
     y_margin = (y_max - y_min) * 0.1
@@ -49,6 +49,7 @@ def plot_training_curves(train_losses, val_losses, val_accs, epochs, save_dir="e
     plt.title('Validation Accuracy')
     plt.legend()
     plt.grid(True)
+
     # 自适应 y 轴范围，添加 10% 边距，限制最小值为 0
     y_min, y_max = np.min(val_accs), np.max(val_accs)
     y_margin = (y_max - y_min) * 0.1 if y_max > y_min else 0.1  # 防止零范围
@@ -59,21 +60,20 @@ def plot_training_curves(train_losses, val_losses, val_accs, epochs, save_dir="e
 
 def visualize_conv_kernels(model, save_dir="experiments/plots"):
     """
-    可视化第一层和第二层卷积核。
+    可视化卷积核。
     """
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    # 第一层卷积核（W1，32个 3x3x3，参考：visualization_results）
+    # 第一层卷积核
     print("正在生成第一层卷积核可视化...")
-    W1 = cp.asnumpy(model.W1)  # 形状 (32, 3, 3, 3)
+    W1 = cp.asnumpy(model.W1)
     num_kernels1 = min(32, W1.shape[0])  # 最多显示 32 个卷积核
     rows1 = math.ceil(math.sqrt(num_kernels1))
     cols1 = math.ceil(num_kernels1 / rows1)
     plt.figure(figsize=(10, 5))
     for i in range(min(32, W1.shape[0])):
-        kernel = W1[i]  # 形状 (3, 3, 3)
-        # 归一化到 [0, 1] 用于显示
+        kernel = W1[i]
         kernel = (kernel - kernel.min()) / (kernel.max() - kernel.min() + 1e-8)
         plt.subplot(rows1, cols1, i + 1)
         plt.imshow(kernel)
@@ -83,16 +83,15 @@ def visualize_conv_kernels(model, save_dir="experiments/plots"):
     plt.close()
     print("第一层卷积核已保存至 {}/conv1_kernels.png".format(save_dir))
 
-    # 第二层卷积核（W2，32个 3x3x32，选择第一个通道，参考：visualization_results）
+    # 第二层卷积核
     print("正在生成第二层卷积核可视化...")
-    W2 = cp.asnumpy(model.W2)  # 形状 (32, 3, 3, 32)
+    W2 = cp.asnumpy(model.W2)
     num_kernels2 = min(32, W2.shape[0])  # 最多显示 32 个卷积核
     rows2 = math.ceil(math.sqrt(num_kernels2))
     cols2 = math.ceil(num_kernels2 / rows2)
     plt.figure(figsize=(10, 5))
     for i in range(min(32, W2.shape[0])):
-        kernel = W2[i, :, :, 0]  # 选择第一个通道，形状 (3, 3)
-        # 归一化到 [0, 1] 用于显示
+        kernel = W2[i, :, :, 0]  
         kernel = (kernel - kernel.min()) / (kernel.max() - kernel.min() + 1e-8)
         plt.subplot(rows2, cols2, i + 1)
         plt.imshow(kernel, cmap='gray')
@@ -110,7 +109,7 @@ def plot_fc_weights(model, save_dir="experiments/plots"):
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    # 全连接权重（W3，参考：visualization_results）
+    # 全连接权重
     W3 = cp.asnumpy(model.W3)  # 形状 (512, 10) 或类似
     plt.figure(figsize=(10, 6))
     sns.heatmap(W3, cmap='RdBu', center=0, cbar=True)
@@ -128,16 +127,12 @@ def plot_param_distribution(model, save_dir="experiments/plots"):
     print("正在生成参数分布图...")
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
-
-    # 收集所有权重（W1, W2, W3）
     weights = [
         cp.asnumpy(model.W1).ravel(),
         cp.asnumpy(model.W2).ravel(),
         cp.asnumpy(model.W3).ravel()
     ]
     weights = np.concatenate(weights)
-
-    # 收集所有偏置（b1, b2, b3, beta1, beta2），保持原始值
     biases = {
         'b1': cp.asnumpy(model.b1),
         'b2': cp.asnumpy(model.b2),
@@ -149,7 +144,7 @@ def plot_param_distribution(model, save_dir="experiments/plots"):
     # 绘制权重分布
     plt.figure(figsize=(6, 5))
     plt.hist(weights, bins=50, color='blue', alpha=0.7)
-    plt.xlim([-1, 1])  # 限制权重分布的 x 轴范围
+    plt.xlim([-1, 1])  
     plt.xlabel('Weight Value')
     plt.ylabel('Frequency')
     plt.title('Weight Parameter Distribution')
@@ -160,15 +155,13 @@ def plot_param_distribution(model, save_dir="experiments/plots"):
 
     # 为每个偏置参数绘制按通道的偏置值柱状图
     for bias_name, bias_values in biases.items():
-        # 假设第一维是通道数，若多维则对其他维取均值
         if bias_values.ndim > 1:
             bias_values = bias_values.mean(axis=tuple(range(1, bias_values.ndim)))
         else:
-            bias_values = bias_values  # 如果是 1D，直接使用
+            bias_values = bias_values
 
         num_channels = bias_values.shape[0]
-        channels = np.arange(1, num_channels + 1)  # 通道索引从 1 开始
-
+        channels = np.arange(1, num_channels + 1)
         plt.figure(figsize=(10, 5))
         plt.bar(channels, bias_values, color='orange', alpha=0.7)
         plt.xlabel('Channel Index')
@@ -276,13 +269,17 @@ def plot_hyperparam_tuning_lr_reg(save_dir="experiments/plots"):
     """
     绘制学习率和正则化系数的调参热图。
     """
+    paths = get_project_paths()
+    if save_dir is None:
+        save_dir = paths['plots_dir']
+
     print("正在加载 lr 和 reg 调参实验结果...")
-    results_path = "/home/spoil/cv/assignment01/experiments/hyperparam_lr_reg.npz"
+    results_path = paths['hyperparam_lr_reg_path']
     try:
         data = np.load(results_path)
         lrs = data['lrs']
         regs = data['regs']
-        val_accs = data['val_accs']  # 形状 (n_lrs, n_regs)
+        val_accs = data['val_accs'] 
         print("lr 和 reg 调参实验结果加载成功！")
     except FileNotFoundError:
         logging.warning(f"未找到调参结果文件 {results_path}，将使用示例数据...")
@@ -306,17 +303,21 @@ def plot_hyperparam_tuning_lr_reg(save_dir="experiments/plots"):
     plt.close()
     print(f"lr 和 reg 调参热图已保存至 {save_dir}/hyperparam_lr_reg.png")
 
-def plot_hyperparam_tuning_conv_filters(save_dir="experiments/plots"):
+def plot_hyperparam_tuning_conv_filters(save_dir=None):
     """
     绘制第一层和第二层卷积核个数的调参热图。
     """
+    paths = get_project_paths()
+    if save_dir is None:
+        save_dir = paths['plots_dir']
+
     print("正在加载卷积核个数调参实验结果...")
-    results_path = "/home/spoil/cv/assignment01/experiments/hyperparam_conv_filters.npz"
+    results_path = paths['hyperparam_conv_filters_path']
     try:
         data = np.load(results_path)
         conv1_filters = data['conv1_filters']
         conv2_filters = data['conv2_filters']
-        val_accs = data['val_accs']  # 形状 (n_conv1, n_conv2)
+        val_accs = data['val_accs']
         print("卷积核个数调参实验结果加载成功！")
     except FileNotFoundError:
         logging.warning(f"未找到调参结果文件 {results_path}，将使用示例数据...")
@@ -340,12 +341,17 @@ def plot_hyperparam_tuning_conv_filters(save_dir="experiments/plots"):
     plt.close()
     print(f"卷积核个数调参热图已保存至 {save_dir}/hyperparam_conv_filters.png")
 
-def plot_hyperparam_tuning_conv_filters_equal(save_dir="experiments/plots"):
+
+def plot_hyperparam_tuning_conv_filters_equal(save_dir=None):
     """
     绘制第一层和第二层卷积核个数相等的调参折线图。
     """
+    paths = get_project_paths()
+    if save_dir is None:
+        save_dir = paths['plots_dir']
+
     print("正在加载相等卷积核个数调参实验结果...")
-    results_path = "/home/spoil/cv/assignment01/experiments/hyperparam_conv_filters_equal.npz"
+    results_path = paths['hyperparam_conv_filters_equal_path']
     try:
         data = np.load(results_path)
         conv_filters = data['conv_filters']
@@ -374,12 +380,13 @@ def plot_hyperparam_tuning_conv_filters_equal(save_dir="experiments/plots"):
     plt.close()
     print(f"相等卷积核个数调参折线图已保存至 {save_dir}/hyperparam_conv_filters_equal.png")
 
+
 if __name__ == '__main__':
+    paths = get_project_paths()
+    
     # 输入自定义保存路径
     print("开始运行可视化程序...")
-    save_dir = "/home/spoil/cv/assignment01/experiments/plots"
-    if not save_dir:
-        save_dir = "experiments/plots"
+    save_dir = paths['plots_dir']
     print(f"图像将保存至：{save_dir}")
 
     # 设置日志
@@ -389,7 +396,7 @@ if __name__ == '__main__':
     # 加载训练数据
     print("正在加载训练数据...")
     try:
-        data = np.load('/home/spoil/cv/assignment01/experiments/data.npz')
+        data = np.load(paths['data_npz_path'])
         train_losses = data['train_losses']
         val_losses = data['val_losses']
         val_accs = data['val_accs']
@@ -415,7 +422,7 @@ if __name__ == '__main__':
     # 加载最佳权重
     print("正在加载模型权重...")
     try:
-        weights = np.load('/home/spoil/cv/assignment01/experiments/best_model_weights.npz')
+        weights = np.load(paths['weights_path'])
         model.W1 = cp.asarray(weights['W1'])
         model.b1 = cp.asarray(weights['b1'])
         model.W2 = cp.asarray(weights['W2'])
@@ -443,10 +450,9 @@ if __name__ == '__main__':
     print("请输入 CIFAR-10 数据目录（用于类别正确率计算，默认：data/cifar-10-batches-py）：")
     data_dir = input().strip()
     if not data_dir:
-        data_dir = "/home/spoil/cv/assignment01/data/cifar-10-python/cifar-10-batches-py"
+        data_dir = paths['data_dir']
 
-    results_path = "/home/spoil/cv/assignment01/experiments/hyperparam_results.npz"
-    # 生成所有可视化
+    # 可视化
     plot_training_curves(train_losses, val_losses, val_accs, epochs, save_dir)
     visualize_conv_kernels(model, save_dir)
     plot_fc_weights(model, save_dir)
