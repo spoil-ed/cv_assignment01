@@ -1,0 +1,144 @@
+2025-04-08 11:58:10,696 [INFO] Starting CIFAR-10 training...
+2025-04-08 11:58:20,047 [INFO] dpool2 max: 0.0015194110591302398, drelu2 max: 0.0015194110591302398, dbn2 max: 0.002020521122308195, dconv2 max: 0.0011045270850667853, dW2 max: nan, db2 max: 0.18235307729934316
+2025-04-08 11:58:22,348 [INFO] W1 norm: 7.875905059258854, W2 norm: 8.015887636565166, W3 norm: 4.4548860592773165
+2025-04-08 11:58:22,349 [INFO] backward: dW1 max=0.08136834153512217, dW2 max=nan, dW3 max=0.2524117668432316
+2025-04-08 11:58:23,937 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:25,314 [INFO] W1 norm: 7.875291800788568, W2 norm: nan, W3 norm: 4.453034861782823
+2025-04-08 11:58:25,315 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:26,866 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:28,215 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:28,216 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:29,892 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:31,319 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:31,319 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:32,969 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:34,457 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:34,458 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:36,087 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:37,509 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:37,510 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:39,198 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:40,623 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:40,623 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:42,206 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:43,602 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:43,602 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:45,205 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:46,571 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:46,571 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:48,289 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:49,779 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:49,779 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:51,408 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:52,881 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:52,881 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:54,443 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:55,823 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:55,823 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:58:57,368 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:58:58,769 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:58:58,769 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:00,318 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:01,700 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:01,700 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:03,270 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:04,640 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:04,640 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:06,227 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:07,720 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:07,720 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:09,279 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:10,628 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:10,628 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:12,143 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:13,498 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:13,499 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:15,154 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:16,561 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:16,561 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:18,085 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:19,477 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:19,479 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:21,091 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:22,429 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:22,430 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:23,982 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:25,374 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:25,374 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:26,960 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:28,364 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:28,364 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:30,043 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:31,567 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:31,567 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:33,160 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:34,558 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:34,558 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:36,145 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:37,558 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:37,558 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:39,151 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:40,626 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:40,627 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:42,218 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:43,679 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:43,680 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:45,255 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:46,636 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:46,636 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:48,280 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:49,670 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:49,670 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:51,281 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:52,709 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:52,709 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:54,350 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:55,779 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:55,779 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 11:59:57,342 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 11:59:58,764 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 11:59:58,764 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:00,400 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:01,772 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:01,772 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:03,393 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:04,803 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:04,803 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:06,338 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:07,724 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:07,724 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:09,348 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:10,765 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:10,766 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:12,383 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:13,792 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:13,793 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:15,522 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:16,918 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:16,919 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:17,071 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:17,163 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:17,164 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:29,168 [INFO] Epoch 1/20, Train Loss: nan, Train Acc: 0.1020, Val Loss: nan, Val Acc: 0.0840
+2025-04-08 12:00:30,984 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:32,502 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:32,503 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:34,159 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:35,608 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:35,608 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:37,374 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:38,880 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:38,881 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:40,668 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:42,201 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:42,202 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:44,045 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:45,909 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:45,910 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:48,085 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:49,812 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:49,813 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:51,468 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan
+2025-04-08 12:00:52,943 [INFO] W1 norm: nan, W2 norm: nan, W3 norm: nan
+2025-04-08 12:00:52,944 [INFO] backward: dW1 max=nan, dW2 max=nan, dW3 max=nan
+2025-04-08 12:00:54,750 [INFO] dpool2 max: nan, drelu2 max: nan, dbn2 max: nan, dconv2 max: nan, dW2 max: nan, db2 max: nan

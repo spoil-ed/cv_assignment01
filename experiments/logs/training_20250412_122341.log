@@ -1,0 +1,3 @@
+2025-04-12 12:23:41,435 [INFO] Starting CIFAR-10 training...
+2025-04-12 12:24:28,516 [INFO] Epoch 1/20, Train Loss: 4.0600, Train Acc: 0.2200, Val Loss: 4.1533, Val Acc: 0.2000
+2025-04-12 12:25:06,111 [INFO] Epoch 2/20, Train Loss: 3.5595, Train Acc: 0.2510, Val Loss: 3.8090, Val Acc: 0.2460

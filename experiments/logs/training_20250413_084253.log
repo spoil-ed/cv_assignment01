@@ -1,0 +1,99 @@
+2025-04-13 08:42:53,908 [INFO] Starting CIFAR-10 training...
+2025-04-13 08:42:56,807 [INFO] Starting hyperparameter search...
+2025-04-13 08:43:28,091 [INFO] Epoch 1/5, Train Loss: 1.6498, Train Acc: 0.4230, Val Loss: 1.7552, Val Acc: 0.3820
+2025-04-13 08:43:56,785 [INFO] Epoch 2/5, Train Loss: 1.5033, Train Acc: 0.4760, Val Loss: 1.6206, Val Acc: 0.4340
+2025-04-13 08:44:26,024 [INFO] Epoch 3/5, Train Loss: 1.4185, Train Acc: 0.5080, Val Loss: 1.5428, Val Acc: 0.4640
+2025-04-13 08:44:54,829 [INFO] Epoch 4/5, Train Loss: 1.3690, Train Acc: 0.5120, Val Loss: 1.4849, Val Acc: 0.4940
+2025-04-13 08:45:23,824 [INFO] Epoch 5/5, Train Loss: 1.3134, Train Acc: 0.5330, Val Loss: 1.4288, Val Acc: 0.5280
+2025-04-13 08:45:23,828 [INFO] 实验完成：lr=0.001, reg=0.0001, val_acc=0.5280
+2025-04-13 08:45:52,317 [INFO] Epoch 1/5, Train Loss: 1.7418, Train Acc: 0.4020, Val Loss: 1.8457, Val Acc: 0.3880
+2025-04-13 08:46:21,009 [INFO] Epoch 2/5, Train Loss: 1.6002, Train Acc: 0.4580, Val Loss: 1.7188, Val Acc: 0.4220
+2025-04-13 08:46:51,767 [INFO] Epoch 3/5, Train Loss: 1.5144, Train Acc: 0.5070, Val Loss: 1.6422, Val Acc: 0.4520
+2025-04-13 08:47:23,916 [INFO] Epoch 4/5, Train Loss: 1.4640, Train Acc: 0.5260, Val Loss: 1.5982, Val Acc: 0.4820
+2025-04-13 08:47:54,738 [INFO] Epoch 5/5, Train Loss: 1.4321, Train Acc: 0.5400, Val Loss: 1.5613, Val Acc: 0.4780
+2025-04-13 08:47:54,739 [INFO] 实验完成：lr=0.001, reg=0.001, val_acc=0.4820
+2025-04-13 08:48:24,686 [INFO] Epoch 1/5, Train Loss: 2.6419, Train Acc: 0.4290, Val Loss: 2.7420, Val Acc: 0.4060
+2025-04-13 08:48:54,283 [INFO] Epoch 2/5, Train Loss: 2.4915, Train Acc: 0.4720, Val Loss: 2.5780, Val Acc: 0.4500
+2025-04-13 08:49:24,315 [INFO] Epoch 3/5, Train Loss: 2.3776, Train Acc: 0.5130, Val Loss: 2.4800, Val Acc: 0.4560
+2025-04-13 08:49:54,360 [INFO] Epoch 4/5, Train Loss: 2.2864, Train Acc: 0.5470, Val Loss: 2.4058, Val Acc: 0.4580
+2025-04-13 08:50:24,212 [INFO] Epoch 5/5, Train Loss: 2.2227, Train Acc: 0.5680, Val Loss: 2.3440, Val Acc: 0.4840
+2025-04-13 08:50:24,215 [INFO] 实验完成：lr=0.001, reg=0.01, val_acc=0.4840
+2025-04-13 08:50:54,195 [INFO] Epoch 1/5, Train Loss: 1.4391, Train Acc: 0.5140, Val Loss: 1.5847, Val Acc: 0.4520
+2025-04-13 08:51:24,479 [INFO] Epoch 2/5, Train Loss: 1.2908, Train Acc: 0.5320, Val Loss: 1.4410, Val Acc: 0.4920
+2025-04-13 08:51:56,215 [INFO] Epoch 3/5, Train Loss: 1.2518, Train Acc: 0.5630, Val Loss: 1.3421, Val Acc: 0.5380
+2025-04-13 08:52:27,479 [INFO] Epoch 4/5, Train Loss: 1.1764, Train Acc: 0.5910, Val Loss: 1.2956, Val Acc: 0.5560
+2025-04-13 08:52:58,250 [INFO] Epoch 5/5, Train Loss: 1.1947, Train Acc: 0.5630, Val Loss: 1.4021, Val Acc: 0.5000
+2025-04-13 08:52:58,251 [INFO] 实验完成：lr=0.01, reg=0.0001, val_acc=0.5560
+2025-04-13 08:53:28,951 [INFO] Epoch 1/5, Train Loss: 1.4554, Train Acc: 0.5010, Val Loss: 1.5755, Val Acc: 0.4800
+2025-04-13 08:54:00,008 [INFO] Epoch 2/5, Train Loss: 1.4644, Train Acc: 0.5050, Val Loss: 1.5172, Val Acc: 0.5100
+2025-04-13 08:54:31,867 [INFO] Epoch 3/5, Train Loss: 1.3951, Train Acc: 0.5410, Val Loss: 1.5205, Val Acc: 0.5080
+2025-04-13 08:55:06,402 [INFO] Epoch 4/5, Train Loss: 1.4047, Train Acc: 0.5320, Val Loss: 1.5089, Val Acc: 0.4980
+2025-04-13 08:55:37,735 [INFO] Epoch 5/5, Train Loss: 1.3185, Train Acc: 0.5830, Val Loss: 1.5075, Val Acc: 0.5240
+2025-04-13 08:55:37,738 [INFO] 实验完成：lr=0.01, reg=0.001, val_acc=0.5240
+2025-04-13 08:56:10,909 [INFO] Epoch 1/5, Train Loss: 2.3181, Train Acc: 0.4890, Val Loss: 2.3949, Val Acc: 0.4440
+2025-04-13 08:56:43,052 [INFO] Epoch 2/5, Train Loss: 2.0675, Train Acc: 0.5290, Val Loss: 2.1066, Val Acc: 0.5120
+2025-04-13 08:57:14,828 [INFO] Epoch 3/5, Train Loss: 1.9617, Train Acc: 0.5470, Val Loss: 2.0662, Val Acc: 0.4940
+2025-04-13 08:57:46,955 [INFO] Epoch 4/5, Train Loss: 1.8726, Train Acc: 0.5540, Val Loss: 1.9850, Val Acc: 0.5080
+2025-04-13 08:58:18,663 [INFO] Epoch 5/5, Train Loss: 1.9617, Train Acc: 0.4880, Val Loss: 2.0728, Val Acc: 0.4500
+2025-04-13 08:58:18,664 [INFO] 实验完成：lr=0.01, reg=0.01, val_acc=0.5120
+2025-04-13 08:58:51,725 [INFO] Epoch 1/5, Train Loss: 5.4398, Train Acc: 0.1270, Val Loss: 5.4512, Val Acc: 0.1580
+2025-04-13 08:59:24,055 [INFO] Epoch 2/5, Train Loss: 3.7249, Train Acc: 0.1670, Val Loss: 3.7569, Val Acc: 0.1740
+2025-04-13 08:59:55,604 [INFO] Epoch 3/5, Train Loss: 3.0044, Train Acc: 0.1910, Val Loss: 3.2286, Val Acc: 0.1660
+2025-04-13 09:00:27,949 [INFO] Epoch 4/5, Train Loss: 3.0853, Train Acc: 0.2000, Val Loss: 3.1867, Val Acc: 0.2060
+2025-04-13 09:00:59,362 [INFO] Epoch 5/5, Train Loss: 3.2882, Train Acc: 0.2020, Val Loss: 3.4910, Val Acc: 0.2120
+2025-04-13 09:00:59,366 [INFO] 实验完成：lr=0.1, reg=0.0001, val_acc=0.2120
+2025-04-13 09:01:30,386 [INFO] Epoch 1/5, Train Loss: 7.9481, Train Acc: 0.1290, Val Loss: 7.9691, Val Acc: 0.1580
+2025-04-13 09:02:02,469 [INFO] Epoch 2/5, Train Loss: 6.0968, Train Acc: 0.1690, Val Loss: 6.5440, Val Acc: 0.1560
+2025-04-13 09:02:34,741 [INFO] Epoch 3/5, Train Loss: 4.6789, Train Acc: 0.1970, Val Loss: 4.8562, Val Acc: 0.1760
+2025-04-13 09:03:09,814 [INFO] Epoch 4/5, Train Loss: 4.0540, Train Acc: 0.1810, Val Loss: 4.0886, Val Acc: 0.1720
+2025-04-13 09:03:42,045 [INFO] Epoch 5/5, Train Loss: 3.8555, Train Acc: 0.1960, Val Loss: 3.8904, Val Acc: 0.2120
+2025-04-13 09:03:42,049 [INFO] 实验完成：lr=0.1, reg=0.001, val_acc=0.2120
+2025-04-13 09:04:16,332 [INFO] Epoch 1/5, Train Loss: 6.8958, Train Acc: 0.1870, Val Loss: 6.7431, Val Acc: 0.1800
+2025-04-13 09:04:48,704 [INFO] Epoch 2/5, Train Loss: 6.8142, Train Acc: 0.1830, Val Loss: 6.9258, Val Acc: 0.1800
+2025-04-13 09:05:21,196 [INFO] Epoch 3/5, Train Loss: 4.9956, Train Acc: 0.2070, Val Loss: 5.1245, Val Acc: 0.1840
+2025-04-13 09:05:52,322 [INFO] Epoch 4/5, Train Loss: 4.7615, Train Acc: 0.1940, Val Loss: 4.9099, Val Acc: 0.1820
+2025-04-13 09:06:24,370 [INFO] Epoch 5/5, Train Loss: 3.7462, Train Acc: 0.1970, Val Loss: 3.7885, Val Acc: 0.1840
+2025-04-13 09:06:24,372 [INFO] 实验完成：lr=0.1, reg=0.01, val_acc=0.1840
+2025-04-13 09:06:54,858 [INFO] Epoch 1/5, Train Loss: 1.4055, Train Acc: 0.5160, Val Loss: 1.5552, Val Acc: 0.4140
+2025-04-13 09:07:22,852 [INFO] Epoch 2/5, Train Loss: 1.3346, Train Acc: 0.5030, Val Loss: 1.4317, Val Acc: 0.4800
+2025-04-13 09:07:51,451 [INFO] Epoch 3/5, Train Loss: 1.2648, Train Acc: 0.5580, Val Loss: 1.3512, Val Acc: 0.5200
+2025-04-13 09:08:20,752 [INFO] Epoch 4/5, Train Loss: 1.3108, Train Acc: 0.5450, Val Loss: 1.3424, Val Acc: 0.5240
+2025-04-13 09:08:49,400 [INFO] Epoch 5/5, Train Loss: 1.2043, Train Acc: 0.5810, Val Loss: 1.2573, Val Acc: 0.5460
+2025-04-13 09:08:49,402 [INFO] 实验完成：conv1_filters=16, conv2_filters=32, val_acc=0.5460
+2025-04-13 09:09:15,728 [INFO] Epoch 1/5, Train Loss: 1.4242, Train Acc: 0.5030, Val Loss: 1.5337, Val Acc: 0.4500
+2025-04-13 09:09:43,114 [INFO] Epoch 2/5, Train Loss: 1.3298, Train Acc: 0.5250, Val Loss: 1.4356, Val Acc: 0.4900
+2025-04-13 09:10:11,376 [INFO] Epoch 3/5, Train Loss: 1.2837, Train Acc: 0.5440, Val Loss: 1.4703, Val Acc: 0.4620
+2025-04-13 09:10:40,472 [INFO] Epoch 4/5, Train Loss: 1.2795, Train Acc: 0.5620, Val Loss: 1.3909, Val Acc: 0.5100
+2025-04-13 09:11:10,912 [INFO] Epoch 5/5, Train Loss: 1.2507, Train Acc: 0.5530, Val Loss: 1.3451, Val Acc: 0.5200
+2025-04-13 09:11:10,915 [INFO] 实验完成：conv1_filters=16, conv2_filters=64, val_acc=0.5200
+2025-04-13 09:11:40,355 [INFO] Epoch 1/5, Train Loss: 1.5969, Train Acc: 0.4220, Val Loss: 1.7198, Val Acc: 0.3900
+2025-04-13 09:12:11,603 [INFO] Epoch 2/5, Train Loss: 1.4662, Train Acc: 0.4730, Val Loss: 1.6312, Val Acc: 0.4260
+2025-04-13 09:12:40,051 [INFO] Epoch 3/5, Train Loss: 1.4839, Train Acc: 0.4660, Val Loss: 1.5983, Val Acc: 0.4340
+2025-04-13 09:13:09,194 [INFO] Epoch 4/5, Train Loss: 1.3366, Train Acc: 0.5330, Val Loss: 1.5136, Val Acc: 0.4600
+2025-04-13 09:13:38,485 [INFO] Epoch 5/5, Train Loss: 1.3166, Train Acc: 0.5460, Val Loss: 1.4660, Val Acc: 0.4820
+2025-04-13 09:13:38,489 [INFO] 实验完成：conv1_filters=16, conv2_filters=128, val_acc=0.4820
+2025-04-13 09:14:10,157 [INFO] Epoch 1/5, Train Loss: 1.3495, Train Acc: 0.5050, Val Loss: 1.4844, Val Acc: 0.4480
+2025-04-13 09:14:41,895 [INFO] Epoch 2/5, Train Loss: 1.2580, Train Acc: 0.5410, Val Loss: 1.3968, Val Acc: 0.5080
+2025-04-13 09:15:15,420 [INFO] Epoch 3/5, Train Loss: 1.2313, Train Acc: 0.5690, Val Loss: 1.3425, Val Acc: 0.5480
+2025-04-13 09:15:49,442 [INFO] Epoch 4/5, Train Loss: 1.1426, Train Acc: 0.6110, Val Loss: 1.2568, Val Acc: 0.5500
+2025-04-13 09:16:21,627 [INFO] Epoch 5/5, Train Loss: 1.1118, Train Acc: 0.6050, Val Loss: 1.2728, Val Acc: 0.5560
+2025-04-13 09:16:21,629 [INFO] 实验完成：conv1_filters=32, conv2_filters=32, val_acc=0.5560
+2025-04-13 09:16:54,206 [INFO] Epoch 1/5, Train Loss: 1.4675, Train Acc: 0.4920, Val Loss: 1.5906, Val Acc: 0.4500
+2025-04-13 09:17:25,371 [INFO] Epoch 2/5, Train Loss: 1.3185, Train Acc: 0.5180, Val Loss: 1.4431, Val Acc: 0.4720
+2025-04-13 09:17:56,307 [INFO] Epoch 3/5, Train Loss: 1.2724, Train Acc: 0.5570, Val Loss: 1.3715, Val Acc: 0.5280
+2025-04-13 09:18:27,852 [INFO] Epoch 4/5, Train Loss: 1.2446, Train Acc: 0.5520, Val Loss: 1.3601, Val Acc: 0.5180
+2025-04-13 09:19:02,579 [INFO] Epoch 5/5, Train Loss: 1.1841, Train Acc: 0.5880, Val Loss: 1.3137, Val Acc: 0.5260
+2025-04-13 09:19:02,581 [INFO] 实验完成：conv1_filters=32, conv2_filters=64, val_acc=0.5280
+2025-04-13 09:19:37,884 [INFO] Epoch 1/5, Train Loss: 1.4863, Train Acc: 0.4840, Val Loss: 1.5945, Val Acc: 0.4280
+2025-04-13 09:20:15,200 [INFO] Epoch 2/5, Train Loss: 1.4363, Train Acc: 0.4980, Val Loss: 1.5171, Val Acc: 0.4680
+2025-04-13 09:20:52,073 [INFO] Epoch 3/5, Train Loss: 1.3109, Train Acc: 0.5390, Val Loss: 1.4176, Val Acc: 0.5100
+2025-04-13 09:21:27,021 [INFO] Epoch 4/5, Train Loss: 1.2959, Train Acc: 0.5420, Val Loss: 1.3716, Val Acc: 0.5520
+2025-04-13 09:22:03,187 [INFO] Epoch 5/5, Train Loss: 1.2918, Train Acc: 0.5490, Val Loss: 1.4565, Val Acc: 0.4740
+2025-04-13 09:22:03,188 [INFO] 实验完成：conv1_filters=32, conv2_filters=128, val_acc=0.5520
+2025-04-13 09:22:48,028 [INFO] Epoch 1/5, Train Loss: 1.3810, Train Acc: 0.4960, Val Loss: 1.5164, Val Acc: 0.4680
+2025-04-13 09:23:29,881 [INFO] Epoch 2/5, Train Loss: 1.2597, Train Acc: 0.5510, Val Loss: 1.3721, Val Acc: 0.5040
+2025-04-13 09:24:13,347 [INFO] Epoch 3/5, Train Loss: 1.1855, Train Acc: 0.5840, Val Loss: 1.2554, Val Acc: 0.5720
+2025-04-13 09:24:55,730 [INFO] Epoch 4/5, Train Loss: 1.1614, Train Acc: 0.5790, Val Loss: 1.2988, Val Acc: 0.5240
+2025-04-13 09:25:35,852 [INFO] Epoch 5/5, Train Loss: 1.1593, Train Acc: 0.5910, Val Loss: 1.2702, Val Acc: 0.5440
+2025-04-13 09:25:35,853 [INFO] 实验完成：conv1_filters=64, conv2_filters=32, val_acc=0.5720
+2025-04-13 09:26:21,704 [INFO] Epoch 1/5, Train Loss: 1.3305, Train Acc: 0.5310, Val Loss: 1.4583, Val Acc: 0.4740

@@ -1,0 +1,9 @@
+2025-04-09 02:49:46,922 [INFO] Starting CIFAR-10 training...
+2025-04-09 02:49:48,916 [INFO] Starting hyperparameter search...
+2025-04-09 02:49:48,916 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.1
+2025-04-09 02:49:51,459 [INFO] Epoch 1/2, Train Loss: 9.6308, Train Acc: 0.1350, Val Loss: 9.9633, Val Acc: 0.0960
+2025-04-09 02:49:52,390 [INFO] Epoch 2/2, Train Loss: 7.7857, Train Acc: 0.1420, Val Loss: 7.6745, Val Acc: 0.1320
+2025-04-09 02:49:52,395 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.01
+2025-04-09 02:49:53,307 [INFO] Epoch 1/2, Train Loss: 5.1869, Train Acc: 0.1330, Val Loss: 5.2762, Val Acc: 0.1160

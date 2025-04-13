@@ -1,0 +1,223 @@
+2025-04-12 03:10:01,472 [INFO] Starting CIFAR-10 training...
+2025-04-12 03:10:01,823 [INFO] Starting hyperparameter search...
+2025-04-12 03:10:01,823 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.1
+2025-04-12 03:10:03,616 [INFO] Epoch 1/5, Train Loss: 8.2195, Train Acc: 0.1560, Val Loss: 8.4085, Val Acc: 0.1520
+2025-04-12 03:10:04,343 [INFO] Epoch 2/5, Train Loss: 7.3516, Train Acc: 0.1660, Val Loss: 7.6593, Val Acc: 0.1600
+2025-04-12 03:10:04,994 [INFO] Epoch 3/5, Train Loss: 7.0345, Train Acc: 0.1440, Val Loss: 7.2380, Val Acc: 0.1060
+2025-04-12 03:10:05,676 [INFO] Epoch 4/5, Train Loss: 7.3343, Train Acc: 0.1150, Val Loss: 7.4829, Val Acc: 0.1320
+2025-04-12 03:10:06,361 [INFO] Epoch 5/5, Train Loss: 6.2953, Train Acc: 0.1190, Val Loss: 6.7113, Val Acc: 0.1300
+2025-04-12 03:10:06,365 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.01
+2025-04-12 03:10:07,099 [INFO] Epoch 1/5, Train Loss: 5.4752, Train Acc: 0.1310, Val Loss: 5.7823, Val Acc: 0.1340
+2025-04-12 03:10:07,856 [INFO] Epoch 2/5, Train Loss: 4.2861, Train Acc: 0.1590, Val Loss: 4.4912, Val Acc: 0.1660
+2025-04-12 03:10:08,530 [INFO] Epoch 3/5, Train Loss: 4.9187, Train Acc: 0.1490, Val Loss: 5.2234, Val Acc: 0.1440
+2025-04-12 03:10:09,237 [INFO] Epoch 4/5, Train Loss: 4.5310, Train Acc: 0.1690, Val Loss: 4.6540, Val Acc: 0.1700
+2025-04-12 03:10:09,950 [INFO] Epoch 5/5, Train Loss: 4.3850, Train Acc: 0.1620, Val Loss: 4.4680, Val Acc: 0.1760
+2025-04-12 03:10:09,953 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.001
+2025-04-12 03:10:10,629 [INFO] Epoch 1/5, Train Loss: 3.8437, Train Acc: 0.1420, Val Loss: 3.8041, Val Acc: 0.1560
+2025-04-12 03:10:11,291 [INFO] Epoch 2/5, Train Loss: 4.4806, Train Acc: 0.1430, Val Loss: 4.3736, Val Acc: 0.1560
+2025-04-12 03:10:11,993 [INFO] Epoch 3/5, Train Loss: 7.2467, Train Acc: 0.1220, Val Loss: 7.7216, Val Acc: 0.1140
+2025-04-12 03:10:12,659 [INFO] Epoch 4/5, Train Loss: 3.5999, Train Acc: 0.1850, Val Loss: 3.7157, Val Acc: 0.2060
+2025-04-12 03:10:13,388 [INFO] Epoch 5/5, Train Loss: 3.9408, Train Acc: 0.1570, Val Loss: 4.2129, Val Acc: 0.1380
+2025-04-12 03:10:13,392 [INFO] 
+ Hyperparameters: lr=0.01, reg=0.1
+2025-04-12 03:10:14,085 [INFO] Epoch 1/5, Train Loss: 9.1188, Train Acc: 0.2610, Val Loss: 9.2765, Val Acc: 0.2100
+2025-04-12 03:10:14,820 [INFO] Epoch 2/5, Train Loss: 8.4226, Train Acc: 0.3440, Val Loss: 8.6430, Val Acc: 0.2860
+2025-04-12 03:10:15,507 [INFO] Epoch 3/5, Train Loss: 7.9245, Train Acc: 0.4310, Val Loss: 8.1985, Val Acc: 0.3180
+2025-04-12 03:10:16,216 [INFO] Epoch 4/5, Train Loss: 7.4737, Train Acc: 0.4810, Val Loss: 7.7727, Val Acc: 0.3560
+2025-04-12 03:10:16,926 [INFO] Epoch 5/5, Train Loss: 7.2012, Train Acc: 0.4690, Val Loss: 7.5548, Val Acc: 0.3280
+2025-04-12 03:10:16,928 [INFO] 
+ Hyperparameters: lr=0.01, reg=0.01
+2025-04-12 03:10:17,623 [INFO] Epoch 1/5, Train Loss: 2.7994, Train Acc: 0.2430, Val Loss: 2.8628, Val Acc: 0.2240
+2025-04-12 03:10:18,323 [INFO] Epoch 2/5, Train Loss: 2.5086, Train Acc: 0.3360, Val Loss: 2.6861, Val Acc: 0.3060
+2025-04-12 03:10:19,017 [INFO] Epoch 3/5, Train Loss: 2.3554, Train Acc: 0.4090, Val Loss: 2.5919, Val Acc: 0.3580
+2025-04-12 03:10:19,681 [INFO] Epoch 4/5, Train Loss: 2.3647, Train Acc: 0.3970, Val Loss: 2.6265, Val Acc: 0.3240
+2025-04-12 03:10:20,378 [INFO] Epoch 5/5, Train Loss: 2.1794, Train Acc: 0.4820, Val Loss: 2.4760, Val Acc: 0.3980
+2025-04-12 03:10:20,381 [INFO] 
+ Hyperparameters: lr=0.01, reg=0.001
+2025-04-12 03:10:21,064 [INFO] Epoch 1/5, Train Loss: 2.1059, Train Acc: 0.2800, Val Loss: 2.2332, Val Acc: 0.2320
+2025-04-12 03:10:21,764 [INFO] Epoch 2/5, Train Loss: 1.9190, Train Acc: 0.3250, Val Loss: 2.1428, Val Acc: 0.2620
+2025-04-12 03:10:22,434 [INFO] Epoch 3/5, Train Loss: 1.7561, Train Acc: 0.4100, Val Loss: 2.0287, Val Acc: 0.3000
+2025-04-12 03:10:23,093 [INFO] Epoch 4/5, Train Loss: 1.7039, Train Acc: 0.3980, Val Loss: 2.0202, Val Acc: 0.3000
+2025-04-12 03:10:23,764 [INFO] Epoch 5/5, Train Loss: 1.5573, Train Acc: 0.4920, Val Loss: 1.9179, Val Acc: 0.3280
+2025-04-12 03:10:23,767 [INFO] 
+ Hyperparameters: lr=0.001, reg=0.1
+2025-04-12 03:10:24,447 [INFO] Epoch 1/5, Train Loss: 10.0173, Train Acc: 0.1100, Val Loss: 9.9757, Val Acc: 0.1340
+2025-04-12 03:10:25,149 [INFO] Epoch 2/5, Train Loss: 9.8323, Train Acc: 0.1530, Val Loss: 9.8027, Val Acc: 0.1520
+2025-04-12 03:10:25,859 [INFO] Epoch 3/5, Train Loss: 9.6982, Train Acc: 0.1720, Val Loss: 9.6836, Val Acc: 0.1680
+2025-04-12 03:10:26,544 [INFO] Epoch 4/5, Train Loss: 9.5839, Train Acc: 0.1870, Val Loss: 9.5830, Val Acc: 0.1840
+2025-04-12 03:10:27,251 [INFO] Epoch 5/5, Train Loss: 9.4857, Train Acc: 0.1990, Val Loss: 9.4969, Val Acc: 0.1900
+2025-04-12 03:10:27,255 [INFO] 
+ Hyperparameters: lr=0.001, reg=0.01
+2025-04-12 03:10:27,921 [INFO] Epoch 1/5, Train Loss: 3.5638, Train Acc: 0.1080, Val Loss: 3.6704, Val Acc: 0.0820
+2025-04-12 03:10:28,599 [INFO] Epoch 2/5, Train Loss: 3.3359, Train Acc: 0.1260, Val Loss: 3.4495, Val Acc: 0.0980
+2025-04-12 03:10:29,432 [INFO] Epoch 3/5, Train Loss: 3.2102, Train Acc: 0.1530, Val Loss: 3.3378, Val Acc: 0.1160
+2025-04-12 03:10:30,109 [INFO] Epoch 4/5, Train Loss: 3.1213, Train Acc: 0.1770, Val Loss: 3.2570, Val Acc: 0.1460
+2025-04-12 03:10:30,753 [INFO] Epoch 5/5, Train Loss: 3.0538, Train Acc: 0.1990, Val Loss: 3.1936, Val Acc: 0.1640
+2025-04-12 03:10:30,756 [INFO] 
+ Hyperparameters: lr=0.001, reg=0.001
+2025-04-12 03:10:31,427 [INFO] Epoch 1/5, Train Loss: 2.7780, Train Acc: 0.1180, Val Loss: 2.7961, Val Acc: 0.1200
+2025-04-12 03:10:32,078 [INFO] Epoch 2/5, Train Loss: 2.5541, Train Acc: 0.1480, Val Loss: 2.5772, Val Acc: 0.1340
+2025-04-12 03:10:32,762 [INFO] Epoch 3/5, Train Loss: 2.4431, Train Acc: 0.1710, Val Loss: 2.4758, Val Acc: 0.1660
+2025-04-12 03:10:32,471 [INFO] Epoch 4/5, Train Loss: 2.3642, Train Acc: 0.1980, Val Loss: 2.4109, Val Acc: 0.1920
+2025-04-12 03:10:33,147 [INFO] Epoch 5/5, Train Loss: 2.3027, Train Acc: 0.2140, Val Loss: 2.3576, Val Acc: 0.2020
+2025-04-12 03:10:33,239 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,240 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,241 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,241 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,241 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,242 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,242 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,243 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,243 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,243 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,245 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,251 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,251 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,251 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,252 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,252 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,252 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,252 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,252 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,253 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,254 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,259 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,259 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,287 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,288 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,289 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,290 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,291 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,292 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,292 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,293 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,294 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,296 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,299 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,299 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,300 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,300 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,301 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,303 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,306 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,308 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,311 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,317 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:33,318 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,353 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,354 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,354 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,355 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,355 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,355 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,356 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,356 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,357 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,357 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,357 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,361 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,363 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,363 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,364 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,364 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,365 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,365 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,365 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,368 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,369 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,372 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,372 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,433 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,491 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,492 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,492 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,501 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,503 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,700 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,700 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,700 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,701 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,701 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,701 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,702 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,702 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,702 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,703 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,703 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,703 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,704 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,704 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,704 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,705 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,705 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,705 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,705 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,706 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,706 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,709 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,709 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,710 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,711 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,711 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,712 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,712 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,713 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,713 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,713 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,714 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,716 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,716 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,716 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,717 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,717 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,717 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,718 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,718 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,718 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,718 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,719 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,719 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,719 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,720 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,721 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,721 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,742 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,744 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,744 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,801 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,860 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,861 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,861 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,864 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,869 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,870 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,870 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,871 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,872 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:36,873 [WARNING] findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-04-12 03:10:37,040 [INFO] 已保存三维插值图像到: /home/spoil/cv/assignment01/experiments/results/plots
+2025-04-12 03:10:38,039 [INFO] Epoch 1/20, Train Loss: 2.7921, Train Acc: 0.2810, Val Loss: 3.0036, Val Acc: 0.2120
+2025-04-12 03:10:38,784 [INFO] Epoch 2/20, Train Loss: 2.5071, Train Acc: 0.3660, Val Loss: 2.7845, Val Acc: 0.2760
+2025-04-12 03:10:39,457 [INFO] Epoch 3/20, Train Loss: 2.3779, Train Acc: 0.4250, Val Loss: 2.7103, Val Acc: 0.2800
+2025-04-12 03:10:40,154 [INFO] Epoch 4/20, Train Loss: 2.3093, Train Acc: 0.4450, Val Loss: 2.6952, Val Acc: 0.3160
+2025-04-12 03:10:40,845 [INFO] Epoch 5/20, Train Loss: 2.1627, Train Acc: 0.5150, Val Loss: 2.5686, Val Acc: 0.3340
+2025-04-12 03:10:41,577 [INFO] Epoch 6/20, Train Loss: 2.0979, Train Acc: 0.5400, Val Loss: 2.5555, Val Acc: 0.3380
+2025-04-12 03:10:42,276 [INFO] Epoch 7/20, Train Loss: 2.0498, Train Acc: 0.5480, Val Loss: 2.5222, Val Acc: 0.3600
+2025-04-12 03:10:42,957 [INFO] Epoch 8/20, Train Loss: 1.9849, Train Acc: 0.5810, Val Loss: 2.4775, Val Acc: 0.3600
+2025-04-12 03:10:43,647 [INFO] Epoch 9/20, Train Loss: 1.9122, Train Acc: 0.6190, Val Loss: 2.4545, Val Acc: 0.3760
+2025-04-12 03:10:44,341 [INFO] Epoch 10/20, Train Loss: 1.8885, Train Acc: 0.6350, Val Loss: 2.4274, Val Acc: 0.3740
+2025-04-12 03:10:45,022 [INFO] Epoch 11/20, Train Loss: 1.8697, Train Acc: 0.6320, Val Loss: 2.4454, Val Acc: 0.3940
+2025-04-12 03:10:45,730 [INFO] Epoch 12/20, Train Loss: 1.8300, Train Acc: 0.6340, Val Loss: 2.4368, Val Acc: 0.3880
+2025-04-12 03:10:46,409 [INFO] Epoch 13/20, Train Loss: 1.8037, Train Acc: 0.6610, Val Loss: 2.4227, Val Acc: 0.3800
+2025-04-12 03:10:47,056 [INFO] Epoch 14/20, Train Loss: 1.7696, Train Acc: 0.6850, Val Loss: 2.3967, Val Acc: 0.4100
+2025-04-12 03:10:47,744 [INFO] Epoch 15/20, Train Loss: 1.7743, Train Acc: 0.6680, Val Loss: 2.4068, Val Acc: 0.3980
+2025-04-12 03:10:48,430 [INFO] Epoch 16/20, Train Loss: 1.7484, Train Acc: 0.6840, Val Loss: 2.3982, Val Acc: 0.3860
+2025-04-12 03:10:49,172 [INFO] Epoch 17/20, Train Loss: 1.7319, Train Acc: 0.6950, Val Loss: 2.4098, Val Acc: 0.3860
+2025-04-12 03:10:49,908 [INFO] Epoch 18/20, Train Loss: 1.7113, Train Acc: 0.7080, Val Loss: 2.3936, Val Acc: 0.3900
+2025-04-12 03:10:50,634 [INFO] Epoch 19/20, Train Loss: 1.6987, Train Acc: 0.7140, Val Loss: 2.3884, Val Acc: 0.3920
+2025-04-12 03:10:51,321 [INFO] Epoch 20/20, Train Loss: 1.6930, Train Acc: 0.7200, Val Loss: 2.3671, Val Acc: 0.4080
+2025-04-12 03:10:52,050 [INFO] Test Accuracy: 0.3886
+2025-04-12 03:10:52,050 [INFO] Training completed.

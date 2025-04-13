@@ -1,0 +1,28 @@
+2025-04-12 12:09:21,130 [INFO] Starting CIFAR-10 training...
+2025-04-12 12:09:22,930 [INFO] Starting sequential hyperparameter search...
+2025-04-12 12:09:22,930 [INFO] 
+Optimizing lr_decay...
+2025-04-12 12:09:22,930 [INFO] Testing lr_decay = 0.9
+2025-04-12 12:09:58,286 [INFO] Epoch 1/5, Train Loss: 1.8136, Train Acc: 0.4630, Val Loss: 1.8130, Val Acc: 0.4420
+2025-04-12 12:10:30,918 [INFO] Epoch 2/5, Train Loss: 1.6442, Train Acc: 0.5250, Val Loss: 1.6680, Val Acc: 0.4820
+2025-04-12 12:11:02,942 [INFO] Epoch 3/5, Train Loss: 1.6038, Train Acc: 0.5310, Val Loss: 1.6359, Val Acc: 0.4980
+2025-04-12 12:11:35,219 [INFO] Epoch 4/5, Train Loss: 1.5313, Train Acc: 0.5540, Val Loss: 1.5959, Val Acc: 0.5240
+2025-04-12 12:12:09,536 [INFO] Epoch 5/5, Train Loss: 1.5068, Train Acc: 0.5610, Val Loss: 1.5453, Val Acc: 0.5500
+2025-04-12 12:12:09,544 [INFO] lr_decay=0.9, Val Acc: 0.5500
+2025-04-12 12:12:09,635 [INFO] Testing lr_decay = 0.95
+2025-04-12 12:12:41,601 [INFO] Epoch 1/5, Train Loss: 1.7331, Train Acc: 0.4820, Val Loss: 1.7853, Val Acc: 0.4620
+2025-04-12 12:13:14,351 [INFO] Epoch 2/5, Train Loss: 1.5616, Train Acc: 0.5350, Val Loss: 1.6018, Val Acc: 0.5160
+2025-04-12 12:13:46,874 [INFO] Epoch 3/5, Train Loss: 1.4882, Train Acc: 0.5600, Val Loss: 1.5010, Val Acc: 0.5480
+2025-04-12 12:14:18,660 [INFO] Epoch 4/5, Train Loss: 1.4415, Train Acc: 0.5780, Val Loss: 1.4995, Val Acc: 0.5620
+2025-04-12 12:14:51,958 [INFO] Epoch 5/5, Train Loss: 1.3896, Train Acc: 0.5870, Val Loss: 1.4172, Val Acc: 0.5980
+2025-04-12 12:14:51,962 [INFO] lr_decay=0.95, Val Acc: 0.5980
+2025-04-12 12:14:51,994 [INFO] Best lr_decay: 0.95, Best Val Acc: 0.5980
+2025-04-12 12:14:52,000 [INFO] Results saved to /home/spoil/cv/assignment01/experiments/results/hyperparam_results.csv
+2025-04-12 12:14:52,000 [INFO] Best hyperparameters: {'lr': 0.01, 'reg_lambda': 0.01, 'batch_size': 32, 'epochs': 5, 'lr_decay': 0.95, 'max_grad_norm': 5.0, 'val_batch_size': 32, 'conv1_filters': 16, 'kernel1_size': (3, 3), 'conv1_stride': 1, 'conv1_padding': 1, 'conv2_filters': 16, 'kernel2_size': (3, 3), 'conv2_stride': 1, 'conv2_padding': 0, 'pool_size': 2, 'pool_stride': 2, 'bn_epsilon': 1e-05}, Best Val Acc: 0.5980
+2025-04-12 12:15:24,084 [INFO] Epoch 1/5, Train Loss: 1.7591, Train Acc: 0.4920, Val Loss: 1.7841, Val Acc: 0.4920
+2025-04-12 12:15:58,311 [INFO] Epoch 2/5, Train Loss: 1.6388, Train Acc: 0.5200, Val Loss: 1.6681, Val Acc: 0.5200
+2025-04-12 12:16:31,178 [INFO] Epoch 3/5, Train Loss: 1.6082, Train Acc: 0.5500, Val Loss: 1.6427, Val Acc: 0.5380
+2025-04-12 12:17:05,633 [INFO] Epoch 4/5, Train Loss: 1.5869, Train Acc: 0.5420, Val Loss: 1.6483, Val Acc: 0.5180
+2025-04-12 12:23:30,723 [INFO] Epoch 5/5, Train Loss: 1.5331, Train Acc: 0.5460, Val Loss: 1.5942, Val Acc: 0.5440
+2025-04-12 12:23:32,099 [INFO] Test Accuracy: 0.5308
+2025-04-12 12:23:32,099 [INFO] Training completed.

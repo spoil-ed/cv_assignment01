@@ -1,0 +1,392 @@
+2025-04-12 04:28:32,994 [INFO] Starting CIFAR-10 training...
+2025-04-12 04:28:34,245 [INFO] Starting sequential hyperparameter search...
+2025-04-12 04:28:34,245 [INFO] 
+Optimizing lr...
+2025-04-12 04:28:34,246 [INFO] Testing lr = 0.01
+2025-04-12 04:28:59,812 [INFO] Epoch 1/5, Train Loss: 1.8661, Train Acc: 0.4690, Val Loss: 1.8607, Val Acc: 0.4630
+2025-04-12 04:29:23,982 [INFO] Epoch 2/5, Train Loss: 1.7058, Train Acc: 0.5070, Val Loss: 1.7261, Val Acc: 0.4934
+2025-04-12 04:29:48,061 [INFO] Epoch 3/5, Train Loss: 1.6016, Train Acc: 0.5250, Val Loss: 1.6325, Val Acc: 0.5232
+2025-04-12 04:30:12,218 [INFO] Epoch 4/5, Train Loss: 1.5397, Train Acc: 0.5640, Val Loss: 1.5830, Val Acc: 0.5368
+2025-04-12 04:30:39,313 [INFO] Epoch 5/5, Train Loss: 1.5038, Train Acc: 0.5820, Val Loss: 1.5409, Val Acc: 0.5572
+2025-04-12 04:30:39,318 [INFO] lr=0.01, Val Acc: 0.5572
+2025-04-12 04:30:39,378 [INFO] Testing lr = 0.001
+2025-04-12 04:31:06,955 [INFO] Epoch 1/5, Train Loss: 2.3433, Train Acc: 0.2960, Val Loss: 2.2891, Val Acc: 0.3080
+2025-04-12 04:31:32,484 [INFO] Epoch 2/5, Train Loss: 2.1826, Train Acc: 0.3610, Val Loss: 2.1351, Val Acc: 0.3690
+2025-04-12 04:31:59,167 [INFO] Epoch 3/5, Train Loss: 2.0915, Train Acc: 0.3910, Val Loss: 2.0466, Val Acc: 0.4040
+2025-04-12 04:32:26,718 [INFO] Epoch 4/5, Train Loss: 2.0130, Train Acc: 0.4270, Val Loss: 1.9779, Val Acc: 0.4250
+2025-04-12 04:32:54,920 [INFO] Epoch 5/5, Train Loss: 1.9690, Train Acc: 0.4440, Val Loss: 1.9442, Val Acc: 0.4370
+2025-04-12 04:32:54,923 [INFO] lr=0.001, Val Acc: 0.4370
+2025-04-12 04:32:54,949 [INFO] Testing lr = 0.0001
+2025-04-12 04:33:23,037 [INFO] Epoch 1/5, Train Loss: 2.8326, Train Acc: 0.1640, Val Loss: 2.7507, Val Acc: 0.1850
+2025-04-12 04:33:51,196 [INFO] Epoch 2/5, Train Loss: 2.7192, Train Acc: 0.1930, Val Loss: 2.6368, Val Acc: 0.2202
+2025-04-12 04:34:17,539 [INFO] Epoch 3/5, Train Loss: 2.6432, Train Acc: 0.2180, Val Loss: 2.5609, Val Acc: 0.2386
+2025-04-12 04:34:45,431 [INFO] Epoch 4/5, Train Loss: 2.5875, Train Acc: 0.2300, Val Loss: 2.5063, Val Acc: 0.2518
+2025-04-12 04:35:12,269 [INFO] Epoch 5/5, Train Loss: 2.5428, Train Acc: 0.2340, Val Loss: 2.4639, Val Acc: 0.2632
+2025-04-12 04:35:12,273 [INFO] lr=0.0001, Val Acc: 0.2632
+2025-04-12 04:35:12,293 [INFO] Best lr: 0.01, Best Val Acc: 0.5572
+2025-04-12 04:35:12,293 [INFO] 
+Optimizing reg_lambda...
+2025-04-12 04:35:12,293 [INFO] Testing reg_lambda = 0.01
+2025-04-12 04:35:40,233 [INFO] Epoch 1/5, Train Loss: 1.8764, Train Acc: 0.4380, Val Loss: 1.8722, Val Acc: 0.4518
+2025-04-12 04:36:10,147 [INFO] Epoch 2/5, Train Loss: 1.7079, Train Acc: 0.5070, Val Loss: 1.7325, Val Acc: 0.4958
+2025-04-12 04:36:38,448 [INFO] Epoch 3/5, Train Loss: 1.5916, Train Acc: 0.5400, Val Loss: 1.6158, Val Acc: 0.5438
+2025-04-12 04:37:06,372 [INFO] Epoch 4/5, Train Loss: 1.5496, Train Acc: 0.5470, Val Loss: 1.5918, Val Acc: 0.5412
+2025-04-12 04:37:33,662 [INFO] Epoch 5/5, Train Loss: 1.4905, Train Acc: 0.5780, Val Loss: 1.5350, Val Acc: 0.5592
+2025-04-12 04:37:33,667 [INFO] reg_lambda=0.01, Val Acc: 0.5592
+2025-04-12 04:37:33,691 [INFO] Testing reg_lambda = 0.001
+2025-04-12 04:38:00,992 [INFO] Epoch 1/5, Train Loss: 1.5429, Train Acc: 0.4690, Val Loss: 1.5701, Val Acc: 0.4516
+2025-04-12 04:38:28,861 [INFO] Epoch 2/5, Train Loss: 1.4074, Train Acc: 0.5170, Val Loss: 1.4705, Val Acc: 0.4924
+2025-04-12 04:38:56,400 [INFO] Epoch 3/5, Train Loss: 1.3938, Train Acc: 0.5260, Val Loss: 1.4524, Val Acc: 0.5062
+2025-04-12 04:39:24,498 [INFO] Epoch 4/5, Train Loss: 1.3423, Train Acc: 0.5400, Val Loss: 1.4085, Val Acc: 0.5162
+2025-04-12 04:39:52,138 [INFO] Epoch 5/5, Train Loss: 1.3210, Train Acc: 0.5510, Val Loss: 1.3707, Val Acc: 0.5250
+2025-04-12 04:39:52,142 [INFO] reg_lambda=0.001, Val Acc: 0.5250
+2025-04-12 04:39:52,162 [INFO] Testing reg_lambda = 0.0001
+2025-04-12 04:40:19,979 [INFO] Epoch 1/5, Train Loss: 1.5563, Train Acc: 0.4370, Val Loss: 1.5845, Val Acc: 0.4284
+2025-04-12 04:40:48,474 [INFO] Epoch 2/5, Train Loss: 1.4113, Train Acc: 0.5130, Val Loss: 1.4447, Val Acc: 0.4894
+2025-04-12 04:41:16,639 [INFO] Epoch 3/5, Train Loss: 1.3742, Train Acc: 0.5090, Val Loss: 1.4139, Val Acc: 0.5008
+2025-04-12 04:41:45,101 [INFO] Epoch 4/5, Train Loss: 1.3052, Train Acc: 0.5260, Val Loss: 1.3641, Val Acc: 0.5242
+2025-04-12 04:42:13,323 [INFO] Epoch 5/5, Train Loss: 1.3018, Train Acc: 0.5450, Val Loss: 1.3723, Val Acc: 0.5192
+2025-04-12 04:42:13,325 [INFO] reg_lambda=0.0001, Val Acc: 0.5242
+2025-04-12 04:42:13,354 [INFO] Best reg_lambda: 0.01, Best Val Acc: 0.5592
+2025-04-12 04:42:13,354 [INFO] 
+Optimizing batch_size...
+2025-04-12 04:42:13,354 [INFO] Testing batch_size = 16
+2025-04-12 04:43:04,637 [INFO] Epoch 1/5, Train Loss: 1.9610, Train Acc: 0.4050, Val Loss: 2.0000, Val Acc: 0.3980
+2025-04-12 04:43:56,845 [INFO] Epoch 2/5, Train Loss: 1.8083, Train Acc: 0.4680, Val Loss: 1.8192, Val Acc: 0.4624
+2025-04-12 04:44:50,822 [INFO] Epoch 3/5, Train Loss: 1.7957, Train Acc: 0.5000, Val Loss: 1.8348, Val Acc: 0.4594
+2025-04-12 04:45:41,755 [INFO] Epoch 4/5, Train Loss: 1.7430, Train Acc: 0.4880, Val Loss: 1.7690, Val Acc: 0.4886
+2025-04-12 04:46:33,502 [INFO] Epoch 5/5, Train Loss: 1.7131, Train Acc: 0.5180, Val Loss: 1.7519, Val Acc: 0.5050
+2025-04-12 04:46:33,506 [INFO] batch_size=16, Val Acc: 0.5050
+2025-04-12 04:46:33,535 [INFO] Testing batch_size = 32
+2025-04-12 04:47:00,040 [INFO] Epoch 1/5, Train Loss: 1.8480, Train Acc: 0.4680, Val Loss: 1.8876, Val Acc: 0.4480
+2025-04-12 04:47:26,253 [INFO] Epoch 2/5, Train Loss: 1.7199, Train Acc: 0.4980, Val Loss: 1.7303, Val Acc: 0.4894
+2025-04-12 04:47:53,489 [INFO] Epoch 3/5, Train Loss: 1.6265, Train Acc: 0.5230, Val Loss: 1.6474, Val Acc: 0.5192
+2025-04-12 04:48:21,878 [INFO] Epoch 4/5, Train Loss: 1.5553, Train Acc: 0.5570, Val Loss: 1.6045, Val Acc: 0.5356
+2025-04-12 04:48:49,706 [INFO] Epoch 5/5, Train Loss: 1.5219, Train Acc: 0.5700, Val Loss: 1.5931, Val Acc: 0.5344
+2025-04-12 04:48:49,708 [INFO] batch_size=32, Val Acc: 0.5356
+2025-04-12 04:48:49,741 [INFO] Testing batch_size = 64
+2025-04-12 04:49:05,159 [INFO] Epoch 1/5, Train Loss: 2.0096, Train Acc: 0.4250, Val Loss: 2.0150, Val Acc: 0.4204
+2025-04-12 04:49:21,644 [INFO] Epoch 2/5, Train Loss: 1.8424, Train Acc: 0.4730, Val Loss: 1.8614, Val Acc: 0.4518
+2025-04-12 04:49:37,152 [INFO] Epoch 3/5, Train Loss: 1.7030, Train Acc: 0.5350, Val Loss: 1.7512, Val Acc: 0.5004
+2025-04-12 04:49:53,752 [INFO] Epoch 4/5, Train Loss: 1.6226, Train Acc: 0.5480, Val Loss: 1.6628, Val Acc: 0.5280
+2025-04-12 04:50:09,373 [INFO] Epoch 5/5, Train Loss: 1.6055, Train Acc: 0.5770, Val Loss: 1.6573, Val Acc: 0.5252
+2025-04-12 04:50:09,375 [INFO] batch_size=64, Val Acc: 0.5280
+2025-04-12 04:50:09,404 [INFO] Best batch_size: 32, Best Val Acc: 0.5356
+2025-04-12 04:50:09,404 [INFO] 
+Optimizing epochs...
+2025-04-12 04:50:09,404 [INFO] Testing epochs = 5
+2025-04-12 04:50:37,512 [INFO] Epoch 1/5, Train Loss: 1.8556, Train Acc: 0.4560, Val Loss: 1.8589, Val Acc: 0.4506
+2025-04-12 04:51:05,187 [INFO] Epoch 2/5, Train Loss: 1.7286, Train Acc: 0.4970, Val Loss: 1.7473, Val Acc: 0.4850
+2025-04-12 04:51:32,648 [INFO] Epoch 3/5, Train Loss: 1.6319, Train Acc: 0.5320, Val Loss: 1.6681, Val Acc: 0.5148
+2025-04-12 04:52:02,434 [INFO] Epoch 4/5, Train Loss: 1.5880, Train Acc: 0.5540, Val Loss: 1.6237, Val Acc: 0.5278
+2025-04-12 04:52:30,168 [INFO] Epoch 5/5, Train Loss: 1.5669, Train Acc: 0.5440, Val Loss: 1.6312, Val Acc: 0.5160
+2025-04-12 04:52:30,170 [INFO] epochs=5, Val Acc: 0.5278
+2025-04-12 04:52:30,198 [INFO] Testing epochs = 10
+2025-04-12 04:52:58,294 [INFO] Epoch 1/10, Train Loss: 1.8086, Train Acc: 0.4670, Val Loss: 1.8476, Val Acc: 0.4482
+2025-04-12 04:53:27,839 [INFO] Epoch 2/10, Train Loss: 1.7239, Train Acc: 0.4860, Val Loss: 1.7694, Val Acc: 0.4662
+2025-04-12 04:53:56,397 [INFO] Epoch 3/10, Train Loss: 1.6043, Train Acc: 0.5370, Val Loss: 1.6544, Val Acc: 0.5080
+2025-04-12 04:54:24,069 [INFO] Epoch 4/10, Train Loss: 1.5715, Train Acc: 0.5280, Val Loss: 1.6285, Val Acc: 0.5162
+2025-04-12 04:54:53,075 [INFO] Epoch 5/10, Train Loss: 1.5472, Train Acc: 0.5540, Val Loss: 1.6079, Val Acc: 0.5220
+2025-04-12 04:55:21,108 [INFO] Epoch 6/10, Train Loss: 1.5352, Train Acc: 0.5590, Val Loss: 1.5939, Val Acc: 0.5332
+2025-04-12 04:55:49,875 [INFO] Epoch 7/10, Train Loss: 1.5234, Train Acc: 0.5580, Val Loss: 1.5679, Val Acc: 0.5410
+2025-04-12 04:56:20,530 [INFO] Epoch 8/10, Train Loss: 1.5167, Train Acc: 0.5730, Val Loss: 1.5846, Val Acc: 0.5282
+2025-04-12 04:56:48,653 [INFO] Epoch 9/10, Train Loss: 1.4914, Train Acc: 0.5780, Val Loss: 1.5514, Val Acc: 0.5554
+2025-04-12 04:57:17,001 [INFO] Epoch 10/10, Train Loss: 1.4774, Train Acc: 0.5660, Val Loss: 1.5441, Val Acc: 0.5564
+2025-04-12 04:57:17,004 [INFO] epochs=10, Val Acc: 0.5564
+2025-04-12 04:57:17,032 [INFO] Best epochs: 10, Best Val Acc: 0.5564
+2025-04-12 04:57:17,032 [INFO] 
+Optimizing lr_decay...
+2025-04-12 04:57:17,032 [INFO] Testing lr_decay = 0.9
+2025-04-12 04:57:44,551 [INFO] Epoch 1/10, Train Loss: 1.8636, Train Acc: 0.4750, Val Loss: 1.8768, Val Acc: 0.4698
+2025-04-12 04:58:12,157 [INFO] Epoch 2/10, Train Loss: 1.7277, Train Acc: 0.5120, Val Loss: 1.7497, Val Acc: 0.4924
+2025-04-12 04:58:39,836 [INFO] Epoch 3/10, Train Loss: 1.6414, Train Acc: 0.5390, Val Loss: 1.6799, Val Acc: 0.5108
+2025-04-12 04:59:07,193 [INFO] Epoch 4/10, Train Loss: 1.6459, Train Acc: 0.5240, Val Loss: 1.6968, Val Acc: 0.4962
+2025-04-12 04:59:34,332 [INFO] Epoch 5/10, Train Loss: 1.5887, Train Acc: 0.5600, Val Loss: 1.6187, Val Acc: 0.5284
+2025-04-12 05:00:03,291 [INFO] Epoch 6/10, Train Loss: 1.5513, Train Acc: 0.5740, Val Loss: 1.5968, Val Acc: 0.5372
+2025-04-12 05:00:31,734 [INFO] Epoch 7/10, Train Loss: 1.5789, Train Acc: 0.5460, Val Loss: 1.6236, Val Acc: 0.5222
+2025-04-12 05:01:00,155 [INFO] Epoch 8/10, Train Loss: 1.5197, Train Acc: 0.5790, Val Loss: 1.5735, Val Acc: 0.5492
+2025-04-12 05:01:27,854 [INFO] Epoch 9/10, Train Loss: 1.5216, Train Acc: 0.5710, Val Loss: 1.5605, Val Acc: 0.5514
+2025-04-12 05:01:56,179 [INFO] Epoch 10/10, Train Loss: 1.5248, Train Acc: 0.5670, Val Loss: 1.5706, Val Acc: 0.5470
+2025-04-12 05:01:56,182 [INFO] lr_decay=0.9, Val Acc: 0.5514
+2025-04-12 05:01:56,211 [INFO] Testing lr_decay = 0.95
+2025-04-12 05:02:23,705 [INFO] Epoch 1/10, Train Loss: 1.8224, Train Acc: 0.4770, Val Loss: 1.8635, Val Acc: 0.4518
+2025-04-12 05:02:50,577 [INFO] Epoch 2/10, Train Loss: 1.6906, Train Acc: 0.5230, Val Loss: 1.7276, Val Acc: 0.4926
+2025-04-12 05:03:17,962 [INFO] Epoch 3/10, Train Loss: 1.6374, Train Acc: 0.5060, Val Loss: 1.6535, Val Acc: 0.5118
+2025-04-12 05:03:45,972 [INFO] Epoch 4/10, Train Loss: 1.5450, Train Acc: 0.5500, Val Loss: 1.5898, Val Acc: 0.5368
+2025-04-12 05:04:14,139 [INFO] Epoch 5/10, Train Loss: 1.5210, Train Acc: 0.5590, Val Loss: 1.5687, Val Acc: 0.5378
+2025-04-12 05:04:42,668 [INFO] Epoch 6/10, Train Loss: 1.5202, Train Acc: 0.5580, Val Loss: 1.5744, Val Acc: 0.5388
+2025-04-12 05:05:11,659 [INFO] Epoch 7/10, Train Loss: 1.4906, Train Acc: 0.5660, Val Loss: 1.5363, Val Acc: 0.5458
+2025-04-12 05:05:39,101 [INFO] Epoch 8/10, Train Loss: 1.4428, Train Acc: 0.5890, Val Loss: 1.4890, Val Acc: 0.5668
+2025-04-12 05:06:07,266 [INFO] Epoch 9/10, Train Loss: 1.4401, Train Acc: 0.5850, Val Loss: 1.5019, Val Acc: 0.5646
+2025-04-12 05:06:34,948 [INFO] Epoch 10/10, Train Loss: 1.4414, Train Acc: 0.5720, Val Loss: 1.4787, Val Acc: 0.5656
+2025-04-12 05:06:34,950 [INFO] lr_decay=0.95, Val Acc: 0.5668
+2025-04-12 05:06:34,980 [INFO] Best lr_decay: 0.95, Best Val Acc: 0.5668
+2025-04-12 05:06:34,980 [INFO] 
+Optimizing max_grad_norm...
+2025-04-12 05:06:34,980 [INFO] Testing max_grad_norm = 1.0
+2025-04-12 05:07:02,219 [INFO] Epoch 1/10, Train Loss: 2.0791, Train Acc: 0.3770, Val Loss: 2.0571, Val Acc: 0.3922
+2025-04-12 05:07:30,385 [INFO] Epoch 2/10, Train Loss: 1.9030, Train Acc: 0.4580, Val Loss: 1.9041, Val Acc: 0.4376
+2025-04-12 05:07:58,870 [INFO] Epoch 3/10, Train Loss: 1.7751, Train Acc: 0.4960, Val Loss: 1.8043, Val Acc: 0.4758
+2025-04-12 05:08:26,567 [INFO] Epoch 4/10, Train Loss: 1.7233, Train Acc: 0.5270, Val Loss: 1.7452, Val Acc: 0.4968
+2025-04-12 05:08:53,891 [INFO] Epoch 5/10, Train Loss: 1.6988, Train Acc: 0.5300, Val Loss: 1.7304, Val Acc: 0.5000
+2025-04-12 05:09:22,232 [INFO] Epoch 6/10, Train Loss: 1.6640, Train Acc: 0.5350, Val Loss: 1.6919, Val Acc: 0.5176
+2025-04-12 05:09:50,055 [INFO] Epoch 7/10, Train Loss: 1.6248, Train Acc: 0.5450, Val Loss: 1.6619, Val Acc: 0.5314
+2025-04-12 05:10:18,048 [INFO] Epoch 8/10, Train Loss: 1.5994, Train Acc: 0.5650, Val Loss: 1.6342, Val Acc: 0.5384
+2025-04-12 05:10:45,809 [INFO] Epoch 9/10, Train Loss: 1.5776, Train Acc: 0.5800, Val Loss: 1.6199, Val Acc: 0.5402
+2025-04-12 05:11:12,728 [INFO] Epoch 10/10, Train Loss: 1.5591, Train Acc: 0.5790, Val Loss: 1.6023, Val Acc: 0.5470
+2025-04-12 05:11:12,731 [INFO] max_grad_norm=1.0, Val Acc: 0.5470
+2025-04-12 05:11:12,758 [INFO] Testing max_grad_norm = 5.0
+2025-04-12 05:11:39,534 [INFO] Epoch 1/10, Train Loss: 1.8107, Train Acc: 0.4650, Val Loss: 1.8348, Val Acc: 0.4570
+2025-04-12 05:12:07,865 [INFO] Epoch 2/10, Train Loss: 1.6871, Train Acc: 0.5100, Val Loss: 1.7338, Val Acc: 0.4880
+2025-04-12 05:12:36,369 [INFO] Epoch 3/10, Train Loss: 1.5802, Train Acc: 0.5400, Val Loss: 1.6181, Val Acc: 0.5282
+2025-04-12 05:13:04,965 [INFO] Epoch 4/10, Train Loss: 1.5259, Train Acc: 0.5550, Val Loss: 1.5678, Val Acc: 0.5414
+2025-04-12 05:13:33,609 [INFO] Epoch 5/10, Train Loss: 1.5386, Train Acc: 0.5560, Val Loss: 1.6083, Val Acc: 0.5252
+2025-04-12 05:14:01,779 [INFO] Epoch 6/10, Train Loss: 1.4910, Train Acc: 0.5720, Val Loss: 1.5535, Val Acc: 0.5518
+2025-04-12 05:14:30,407 [INFO] Epoch 7/10, Train Loss: 1.4685, Train Acc: 0.5660, Val Loss: 1.5212, Val Acc: 0.5626
+2025-04-12 05:14:56,983 [INFO] Epoch 8/10, Train Loss: 1.4397, Train Acc: 0.5770, Val Loss: 1.4966, Val Acc: 0.5716
+2025-04-12 05:15:24,016 [INFO] Epoch 9/10, Train Loss: 1.4557, Train Acc: 0.5900, Val Loss: 1.5034, Val Acc: 0.5674
+2025-04-12 05:15:53,827 [INFO] Epoch 10/10, Train Loss: 1.4715, Train Acc: 0.5710, Val Loss: 1.5212, Val Acc: 0.5608
+2025-04-12 05:15:53,829 [INFO] max_grad_norm=5.0, Val Acc: 0.5716
+2025-04-12 05:15:53,857 [INFO] Best max_grad_norm: 5.0, Best Val Acc: 0.5716
+2025-04-12 05:15:53,857 [INFO] 
+Optimizing val_batch_size...
+2025-04-12 05:15:53,857 [INFO] Testing val_batch_size = 16
+2025-04-12 05:16:24,326 [INFO] Epoch 1/10, Train Loss: 1.8210, Train Acc: 0.4790, Val Loss: 1.8973, Val Acc: 0.4534
+2025-04-12 05:16:52,555 [INFO] Epoch 2/10, Train Loss: 1.7030, Train Acc: 0.5090, Val Loss: 1.8054, Val Acc: 0.4724
+2025-04-12 05:17:21,005 [INFO] Epoch 3/10, Train Loss: 1.5662, Train Acc: 0.5480, Val Loss: 1.7027, Val Acc: 0.5014
+2025-04-12 05:17:48,829 [INFO] Epoch 4/10, Train Loss: 1.5520, Train Acc: 0.5570, Val Loss: 1.6705, Val Acc: 0.5112
+2025-04-12 05:18:16,942 [INFO] Epoch 5/10, Train Loss: 1.4845, Train Acc: 0.5720, Val Loss: 1.6241, Val Acc: 0.5230
+2025-04-12 05:18:44,781 [INFO] Epoch 6/10, Train Loss: 1.4515, Train Acc: 0.5670, Val Loss: 1.5754, Val Acc: 0.5392
+2025-04-12 05:19:12,709 [INFO] Epoch 7/10, Train Loss: 1.4405, Train Acc: 0.5890, Val Loss: 1.5720, Val Acc: 0.5418
+2025-04-12 05:19:39,956 [INFO] Epoch 8/10, Train Loss: 1.3976, Train Acc: 0.6140, Val Loss: 1.5472, Val Acc: 0.5504
+2025-04-12 05:20:12,241 [INFO] Epoch 9/10, Train Loss: 1.4104, Train Acc: 0.5990, Val Loss: 1.5679, Val Acc: 0.5348
+2025-04-12 05:20:40,522 [INFO] Epoch 10/10, Train Loss: 1.4011, Train Acc: 0.5970, Val Loss: 1.5500, Val Acc: 0.5450
+2025-04-12 05:20:40,524 [INFO] val_batch_size=16, Val Acc: 0.5504
+2025-04-12 05:20:40,549 [INFO] Testing val_batch_size = 32
+2025-04-12 05:21:08,855 [INFO] Epoch 1/10, Train Loss: 1.8319, Train Acc: 0.4610, Val Loss: 1.8562, Val Acc: 0.4622
+2025-04-12 05:21:37,838 [INFO] Epoch 2/10, Train Loss: 1.6643, Train Acc: 0.5190, Val Loss: 1.7210, Val Acc: 0.4956
+2025-04-12 05:22:05,769 [INFO] Epoch 3/10, Train Loss: 1.5726, Train Acc: 0.5530, Val Loss: 1.6113, Val Acc: 0.5354
+2025-04-12 05:22:33,534 [INFO] Epoch 4/10, Train Loss: 1.5289, Train Acc: 0.5560, Val Loss: 1.5633, Val Acc: 0.5412
+2025-04-12 05:23:00,408 [INFO] Epoch 5/10, Train Loss: 1.4673, Train Acc: 0.5860, Val Loss: 1.5184, Val Acc: 0.5520
+2025-04-12 05:23:27,346 [INFO] Epoch 6/10, Train Loss: 1.4241, Train Acc: 0.5920, Val Loss: 1.4753, Val Acc: 0.5724
+2025-04-12 05:23:57,028 [INFO] Epoch 7/10, Train Loss: 1.3998, Train Acc: 0.6120, Val Loss: 1.4827, Val Acc: 0.5664
+2025-04-12 05:24:26,552 [INFO] Epoch 8/10, Train Loss: 1.3767, Train Acc: 0.6250, Val Loss: 1.4476, Val Acc: 0.5840
+2025-04-12 05:24:54,525 [INFO] Epoch 9/10, Train Loss: 1.3660, Train Acc: 0.6190, Val Loss: 1.4351, Val Acc: 0.5914
+2025-04-12 05:25:23,554 [INFO] Epoch 10/10, Train Loss: 1.3539, Train Acc: 0.6140, Val Loss: 1.4267, Val Acc: 0.5950
+2025-04-12 05:25:23,557 [INFO] val_batch_size=32, Val Acc: 0.5950
+2025-04-12 05:25:23,585 [INFO] Best val_batch_size: 32, Best Val Acc: 0.5950
+2025-04-12 05:25:23,585 [INFO] 
+Optimizing conv1_filters...
+2025-04-12 05:25:23,585 [INFO] Testing conv1_filters = 16
+2025-04-12 05:25:51,285 [INFO] Epoch 1/10, Train Loss: 1.9392, Train Acc: 0.4420, Val Loss: 1.9295, Val Acc: 0.4290
+2025-04-12 05:26:18,462 [INFO] Epoch 2/10, Train Loss: 1.7519, Train Acc: 0.4950, Val Loss: 1.7824, Val Acc: 0.4846
+2025-04-12 05:26:45,640 [INFO] Epoch 3/10, Train Loss: 1.6850, Train Acc: 0.5150, Val Loss: 1.7025, Val Acc: 0.5082
+2025-04-12 05:27:12,022 [INFO] Epoch 4/10, Train Loss: 1.6023, Train Acc: 0.5380, Val Loss: 1.6483, Val Acc: 0.5246
+2025-04-12 05:27:39,417 [INFO] Epoch 5/10, Train Loss: 1.5753, Train Acc: 0.5490, Val Loss: 1.6260, Val Acc: 0.5290
+2025-04-12 05:28:10,017 [INFO] Epoch 6/10, Train Loss: 1.5477, Train Acc: 0.5560, Val Loss: 1.6043, Val Acc: 0.5414
+2025-04-12 05:28:37,527 [INFO] Epoch 7/10, Train Loss: 1.5641, Train Acc: 0.5490, Val Loss: 1.6113, Val Acc: 0.5314
+2025-04-12 05:29:05,114 [INFO] Epoch 8/10, Train Loss: 1.5823, Train Acc: 0.5410, Val Loss: 1.6463, Val Acc: 0.5242
+2025-04-12 05:29:33,751 [INFO] Epoch 9/10, Train Loss: 1.5617, Train Acc: 0.5680, Val Loss: 1.6090, Val Acc: 0.5468
+2025-04-12 05:30:01,552 [INFO] Epoch 10/10, Train Loss: 1.5391, Train Acc: 0.5700, Val Loss: 1.5980, Val Acc: 0.5548
+2025-04-12 05:30:01,556 [INFO] conv1_filters=16, Val Acc: 0.5548
+2025-04-12 05:30:01,582 [INFO] Testing conv1_filters = 32
+2025-04-12 05:30:32,428 [INFO] Epoch 1/10, Train Loss: 1.9760, Train Acc: 0.4610, Val Loss: 1.9679, Val Acc: 0.4670
+2025-04-12 05:31:03,357 [INFO] Epoch 2/10, Train Loss: 1.7683, Train Acc: 0.5430, Val Loss: 1.8068, Val Acc: 0.5084
+2025-04-12 05:31:34,557 [INFO] Epoch 3/10, Train Loss: 1.6376, Train Acc: 0.5680, Val Loss: 1.6762, Val Acc: 0.5458
+2025-04-12 05:32:08,741 [INFO] Epoch 4/10, Train Loss: 1.6016, Train Acc: 0.5510, Val Loss: 1.6305, Val Acc: 0.5512
+2025-04-12 05:32:40,328 [INFO] Epoch 5/10, Train Loss: 1.5293, Train Acc: 0.5730, Val Loss: 1.5672, Val Acc: 0.5698
+2025-04-12 05:33:13,236 [INFO] Epoch 6/10, Train Loss: 1.5022, Train Acc: 0.6010, Val Loss: 1.5539, Val Acc: 0.5820
+2025-04-12 05:33:46,035 [INFO] Epoch 7/10, Train Loss: 1.4625, Train Acc: 0.6060, Val Loss: 1.5197, Val Acc: 0.5860
+2025-04-12 05:34:17,854 [INFO] Epoch 8/10, Train Loss: 1.4481, Train Acc: 0.6010, Val Loss: 1.5115, Val Acc: 0.5796
+2025-04-12 05:34:48,684 [INFO] Epoch 9/10, Train Loss: 1.4386, Train Acc: 0.5900, Val Loss: 1.4959, Val Acc: 0.5890
+2025-04-12 05:35:19,776 [INFO] Epoch 10/10, Train Loss: 1.4157, Train Acc: 0.6140, Val Loss: 1.4775, Val Acc: 0.5916
+2025-04-12 05:35:19,779 [INFO] conv1_filters=32, Val Acc: 0.5916
+2025-04-12 05:35:19,805 [INFO] Best conv1_filters: 32, Best Val Acc: 0.5916
+2025-04-12 05:35:19,805 [INFO] 
+Optimizing kernel1_size...
+2025-04-12 05:35:19,805 [INFO] Testing kernel1_size = (3, 3)
+2025-04-12 05:35:52,615 [INFO] Epoch 1/10, Train Loss: 1.8962, Train Acc: 0.5080, Val Loss: 1.9303, Val Acc: 0.4770
+2025-04-12 05:36:26,192 [INFO] Epoch 2/10, Train Loss: 1.7016, Train Acc: 0.5620, Val Loss: 1.7630, Val Acc: 0.5190
+2025-04-12 05:36:58,347 [INFO] Epoch 3/10, Train Loss: 1.5969, Train Acc: 0.5700, Val Loss: 1.6525, Val Acc: 0.5408
+2025-04-12 05:37:31,246 [INFO] Epoch 4/10, Train Loss: 1.5158, Train Acc: 0.5960, Val Loss: 1.5741, Val Acc: 0.5674
+2025-04-12 05:38:03,375 [INFO] Epoch 5/10, Train Loss: 1.4720, Train Acc: 0.5920, Val Loss: 1.5293, Val Acc: 0.5752
+2025-04-12 05:38:35,650 [INFO] Epoch 6/10, Train Loss: 1.4189, Train Acc: 0.6180, Val Loss: 1.4966, Val Acc: 0.5872
+2025-04-12 05:39:06,689 [INFO] Epoch 7/10, Train Loss: 1.3675, Train Acc: 0.6290, Val Loss: 1.4446, Val Acc: 0.5998
+2025-04-12 05:39:37,931 [INFO] Epoch 8/10, Train Loss: 1.3660, Train Acc: 0.6300, Val Loss: 1.4566, Val Acc: 0.5910
+2025-04-12 05:40:12,719 [INFO] Epoch 9/10, Train Loss: 1.3748, Train Acc: 0.6260, Val Loss: 1.4551, Val Acc: 0.5876
+2025-04-12 05:40:43,783 [INFO] Epoch 10/10, Train Loss: 1.3569, Train Acc: 0.6370, Val Loss: 1.4358, Val Acc: 0.6042
+2025-04-12 05:40:43,787 [INFO] kernel1_size=(3, 3), Val Acc: 0.6042
+2025-04-12 05:40:43,826 [INFO] Best kernel1_size: (3, 3), Best Val Acc: 0.6042
+2025-04-12 05:40:43,826 [INFO] 
+Optimizing conv1_stride...
+2025-04-12 05:40:43,826 [INFO] Testing conv1_stride = 1
+2025-04-12 05:41:16,137 [INFO] Epoch 1/10, Train Loss: 1.9669, Train Acc: 0.4480, Val Loss: 1.9398, Val Acc: 0.4688
+2025-04-12 05:41:47,415 [INFO] Epoch 2/10, Train Loss: 1.8411, Train Acc: 0.5230, Val Loss: 1.8902, Val Acc: 0.4734
+2025-04-12 05:42:19,541 [INFO] Epoch 3/10, Train Loss: 1.6838, Train Acc: 0.5460, Val Loss: 1.7145, Val Acc: 0.5202
+2025-04-12 05:42:50,738 [INFO] Epoch 4/10, Train Loss: 1.6252, Train Acc: 0.5480, Val Loss: 1.6563, Val Acc: 0.5380
+2025-04-12 05:43:21,863 [INFO] Epoch 5/10, Train Loss: 1.5783, Train Acc: 0.5560, Val Loss: 1.6356, Val Acc: 0.5338
+2025-04-12 05:43:55,156 [INFO] Epoch 6/10, Train Loss: 1.5529, Train Acc: 0.5540, Val Loss: 1.5957, Val Acc: 0.5518
+2025-04-12 05:44:28,160 [INFO] Epoch 7/10, Train Loss: 1.5116, Train Acc: 0.5570, Val Loss: 1.5636, Val Acc: 0.5628
+2025-04-12 05:45:00,099 [INFO] Epoch 8/10, Train Loss: 1.4737, Train Acc: 0.5970, Val Loss: 1.5433, Val Acc: 0.5736
+2025-04-12 05:45:34,026 [INFO] Epoch 9/10, Train Loss: 1.4950, Train Acc: 0.5680, Val Loss: 1.5522, Val Acc: 0.5630
+2025-04-12 05:46:06,723 [INFO] Epoch 10/10, Train Loss: 1.4776, Train Acc: 0.5940, Val Loss: 1.5548, Val Acc: 0.5592
+2025-04-12 05:46:06,725 [INFO] conv1_stride=1, Val Acc: 0.5736
+2025-04-12 05:46:06,751 [INFO] Best conv1_stride: 1, Best Val Acc: 0.5736
+2025-04-12 05:46:06,752 [INFO] 
+Optimizing conv1_padding...
+2025-04-12 05:46:06,752 [INFO] Testing conv1_padding = 1
+2025-04-12 05:46:38,744 [INFO] Epoch 1/10, Train Loss: 1.8837, Train Acc: 0.4970, Val Loss: 1.9203, Val Acc: 0.4798
+2025-04-12 05:47:10,586 [INFO] Epoch 2/10, Train Loss: 1.7142, Train Acc: 0.5400, Val Loss: 1.7611, Val Acc: 0.5216
+2025-04-12 05:47:46,169 [INFO] Epoch 3/10, Train Loss: 1.6391, Train Acc: 0.5580, Val Loss: 1.6821, Val Acc: 0.5368
+2025-04-12 05:48:20,442 [INFO] Epoch 4/10, Train Loss: 1.5637, Train Acc: 0.5820, Val Loss: 1.6297, Val Acc: 0.5524
+2025-04-12 05:48:52,641 [INFO] Epoch 5/10, Train Loss: 1.5374, Train Acc: 0.5840, Val Loss: 1.6008, Val Acc: 0.5556
+2025-04-12 05:49:25,202 [INFO] Epoch 6/10, Train Loss: 1.5435, Train Acc: 0.5600, Val Loss: 1.5892, Val Acc: 0.5502
+2025-04-12 05:49:57,684 [INFO] Epoch 7/10, Train Loss: 1.5075, Train Acc: 0.5700, Val Loss: 1.5715, Val Acc: 0.5544
+2025-04-12 05:50:29,845 [INFO] Epoch 8/10, Train Loss: 1.4927, Train Acc: 0.5710, Val Loss: 1.5400, Val Acc: 0.5672
+2025-04-12 05:51:01,050 [INFO] Epoch 9/10, Train Loss: 1.4767, Train Acc: 0.5920, Val Loss: 1.5200, Val Acc: 0.5716
+2025-04-12 05:51:32,489 [INFO] Epoch 10/10, Train Loss: 1.4788, Train Acc: 0.5720, Val Loss: 1.5166, Val Acc: 0.5748
+2025-04-12 05:51:32,493 [INFO] conv1_padding=1, Val Acc: 0.5748
+2025-04-12 05:51:32,515 [INFO] Best conv1_padding: 1, Best Val Acc: 0.5748
+2025-04-12 05:51:32,515 [INFO] 
+Optimizing conv2_filters...
+2025-04-12 05:51:32,515 [INFO] Testing conv2_filters = 16
+2025-04-12 05:52:06,900 [INFO] Epoch 1/10, Train Loss: 1.9670, Train Acc: 0.4660, Val Loss: 1.9738, Val Acc: 0.4722
+2025-04-12 05:52:39,410 [INFO] Epoch 2/10, Train Loss: 1.7693, Train Acc: 0.5480, Val Loss: 1.8093, Val Acc: 0.5186
+2025-04-12 05:53:12,994 [INFO] Epoch 3/10, Train Loss: 1.6947, Train Acc: 0.5530, Val Loss: 1.7189, Val Acc: 0.5310
+2025-04-12 05:53:45,054 [INFO] Epoch 4/10, Train Loss: 1.6172, Train Acc: 0.5640, Val Loss: 1.6603, Val Acc: 0.5448
+2025-04-12 05:54:17,140 [INFO] Epoch 5/10, Train Loss: 1.5962, Train Acc: 0.5790, Val Loss: 1.6492, Val Acc: 0.5424
+2025-04-12 05:54:49,331 [INFO] Epoch 6/10, Train Loss: 1.5649, Train Acc: 0.5720, Val Loss: 1.6174, Val Acc: 0.5514
+2025-04-12 05:55:20,745 [INFO] Epoch 7/10, Train Loss: 1.5570, Train Acc: 0.5680, Val Loss: 1.6074, Val Acc: 0.5538
+2025-04-12 05:55:52,440 [INFO] Epoch 8/10, Train Loss: 1.6121, Train Acc: 0.5720, Val Loss: 1.6536, Val Acc: 0.5304
+2025-04-12 05:56:25,603 [INFO] Epoch 9/10, Train Loss: 1.5773, Train Acc: 0.5660, Val Loss: 1.6260, Val Acc: 0.5492
+2025-04-12 05:56:58,349 [INFO] Epoch 10/10, Train Loss: 1.6141, Train Acc: 0.5420, Val Loss: 1.6583, Val Acc: 0.5272
+2025-04-12 05:56:58,351 [INFO] conv2_filters=16, Val Acc: 0.5538
+2025-04-12 05:56:58,379 [INFO] Testing conv2_filters = 32
+2025-04-12 05:57:31,767 [INFO] Epoch 1/10, Train Loss: 2.1168, Train Acc: 0.4670, Val Loss: 2.1135, Val Acc: 0.4706
+2025-04-12 05:58:04,391 [INFO] Epoch 2/10, Train Loss: 1.9004, Train Acc: 0.5300, Val Loss: 1.9151, Val Acc: 0.5220
+2025-04-12 05:58:35,914 [INFO] Epoch 3/10, Train Loss: 1.8188, Train Acc: 0.5290, Val Loss: 1.8612, Val Acc: 0.5136
+2025-04-12 05:59:06,832 [INFO] Epoch 4/10, Train Loss: 1.7908, Train Acc: 0.5290, Val Loss: 1.8284, Val Acc: 0.5164
+2025-04-12 05:59:38,136 [INFO] Epoch 5/10, Train Loss: 1.7521, Train Acc: 0.5270, Val Loss: 1.8151, Val Acc: 0.5102
+2025-04-12 06:00:12,957 [INFO] Epoch 6/10, Train Loss: 1.7035, Train Acc: 0.5410, Val Loss: 1.7478, Val Acc: 0.5378
+2025-04-12 06:00:44,502 [INFO] Epoch 7/10, Train Loss: 1.6404, Train Acc: 0.5560, Val Loss: 1.7187, Val Acc: 0.5390
+2025-04-12 06:01:17,519 [INFO] Epoch 8/10, Train Loss: 1.6703, Train Acc: 0.5570, Val Loss: 1.7257, Val Acc: 0.5426
+2025-04-12 06:01:48,901 [INFO] Epoch 9/10, Train Loss: 1.6404, Train Acc: 0.5490, Val Loss: 1.7136, Val Acc: 0.5484
+2025-04-12 06:02:20,682 [INFO] Epoch 10/10, Train Loss: 1.6276, Train Acc: 0.5580, Val Loss: 1.6876, Val Acc: 0.5556
+2025-04-12 06:02:20,686 [INFO] conv2_filters=32, Val Acc: 0.5556
+2025-04-12 06:02:20,711 [INFO] Best conv2_filters: 32, Best Val Acc: 0.5556
+2025-04-12 06:02:20,711 [INFO] 
+Optimizing kernel2_size...
+2025-04-12 06:02:20,711 [INFO] Testing kernel2_size = (3, 3)
+2025-04-12 06:02:51,468 [INFO] Epoch 1/10, Train Loss: 1.9901, Train Acc: 0.5110, Val Loss: 2.0275, Val Acc: 0.4822
+2025-04-12 06:03:22,582 [INFO] Epoch 2/10, Train Loss: 1.9055, Train Acc: 0.5130, Val Loss: 1.9338, Val Acc: 0.4922
+2025-04-12 06:03:56,265 [INFO] Epoch 3/10, Train Loss: 1.7960, Train Acc: 0.5360, Val Loss: 1.8761, Val Acc: 0.4980
+2025-04-12 06:04:29,111 [INFO] Epoch 4/10, Train Loss: 1.7456, Train Acc: 0.5440, Val Loss: 1.8073, Val Acc: 0.5134
+2025-04-12 06:05:01,217 [INFO] Epoch 5/10, Train Loss: 1.6908, Train Acc: 0.5610, Val Loss: 1.7542, Val Acc: 0.5300
+2025-04-12 06:05:34,595 [INFO] Epoch 6/10, Train Loss: 1.6783, Train Acc: 0.5570, Val Loss: 1.7380, Val Acc: 0.5292
+2025-04-12 06:06:06,486 [INFO] Epoch 7/10, Train Loss: 1.6952, Train Acc: 0.5510, Val Loss: 1.7824, Val Acc: 0.5018
+2025-04-12 06:06:38,124 [INFO] Epoch 8/10, Train Loss: 1.6620, Train Acc: 0.5510, Val Loss: 1.7187, Val Acc: 0.5384
+2025-04-12 06:07:08,831 [INFO] Epoch 9/10, Train Loss: 1.6283, Train Acc: 0.5650, Val Loss: 1.6927, Val Acc: 0.5436
+2025-04-12 06:07:40,665 [INFO] Epoch 10/10, Train Loss: 1.6487, Train Acc: 0.5460, Val Loss: 1.7257, Val Acc: 0.5268
+2025-04-12 06:07:40,668 [INFO] kernel2_size=(3, 3), Val Acc: 0.5436
+2025-04-12 06:07:40,717 [INFO] Best kernel2_size: (3, 3), Best Val Acc: 0.5436
+2025-04-12 06:07:40,717 [INFO] 
+Optimizing conv2_stride...
+2025-04-12 06:07:40,717 [INFO] Testing conv2_stride = 1
+2025-04-12 06:08:16,148 [INFO] Epoch 1/10, Train Loss: 2.0908, Train Acc: 0.4680, Val Loss: 2.0917, Val Acc: 0.4728
+2025-04-12 06:08:48,203 [INFO] Epoch 2/10, Train Loss: 1.9402, Train Acc: 0.5030, Val Loss: 1.9798, Val Acc: 0.4848
+2025-04-12 06:09:21,369 [INFO] Epoch 3/10, Train Loss: 1.7763, Train Acc: 0.5640, Val Loss: 1.8254, Val Acc: 0.5362
+2025-04-12 06:09:52,967 [INFO] Epoch 4/10, Train Loss: 1.7010, Train Acc: 0.5790, Val Loss: 1.7743, Val Acc: 0.5474
+2025-04-12 06:10:24,901 [INFO] Epoch 5/10, Train Loss: 1.6885, Train Acc: 0.5780, Val Loss: 1.7314, Val Acc: 0.5616
+2025-04-12 06:10:56,514 [INFO] Epoch 6/10, Train Loss: 1.7273, Train Acc: 0.5550, Val Loss: 1.7785, Val Acc: 0.5284
+2025-04-12 06:11:27,953 [INFO] Epoch 7/10, Train Loss: 1.7026, Train Acc: 0.5580, Val Loss: 1.7668, Val Acc: 0.5418
+2025-04-12 06:12:01,335 [INFO] Epoch 8/10, Train Loss: 1.6823, Train Acc: 0.5620, Val Loss: 1.7402, Val Acc: 0.5392
+2025-04-12 06:12:34,782 [INFO] Epoch 9/10, Train Loss: 1.6989, Train Acc: 0.5410, Val Loss: 1.7636, Val Acc: 0.5288
+2025-04-12 06:13:07,341 [INFO] Epoch 10/10, Train Loss: 1.6292, Train Acc: 0.5840, Val Loss: 1.6968, Val Acc: 0.5582
+2025-04-12 06:13:07,344 [INFO] conv2_stride=1, Val Acc: 0.5616
+2025-04-12 06:13:07,372 [INFO] Best conv2_stride: 1, Best Val Acc: 0.5616
+2025-04-12 06:13:07,372 [INFO] 
+Optimizing conv2_padding...
+2025-04-12 06:13:07,372 [INFO] Testing conv2_padding = 0
+2025-04-12 06:13:40,220 [INFO] Epoch 1/10, Train Loss: 2.0877, Train Acc: 0.4630, Val Loss: 2.1126, Val Acc: 0.4680
+2025-04-12 06:14:12,049 [INFO] Epoch 2/10, Train Loss: 1.9438, Train Acc: 0.4990, Val Loss: 1.9745, Val Acc: 0.4856
+2025-04-12 06:14:43,982 [INFO] Epoch 3/10, Train Loss: 1.7968, Train Acc: 0.5420, Val Loss: 1.8381, Val Acc: 0.5200
+2025-04-12 06:15:15,257 [INFO] Epoch 4/10, Train Loss: 1.7073, Train Acc: 0.5660, Val Loss: 1.7527, Val Acc: 0.5518
+2025-04-12 06:15:47,631 [INFO] Epoch 5/10, Train Loss: 1.6373, Train Acc: 0.5780, Val Loss: 1.6856, Val Acc: 0.5602
+2025-04-12 06:16:21,666 [INFO] Epoch 6/10, Train Loss: 1.6013, Train Acc: 0.5860, Val Loss: 1.6668, Val Acc: 0.5650
+2025-04-12 06:16:54,315 [INFO] Epoch 7/10, Train Loss: 1.6281, Train Acc: 0.5550, Val Loss: 1.6936, Val Acc: 0.5456
+2025-04-12 06:17:27,928 [INFO] Epoch 8/10, Train Loss: 1.5927, Train Acc: 0.5850, Val Loss: 1.6670, Val Acc: 0.5566
+2025-04-12 06:18:00,876 [INFO] Epoch 9/10, Train Loss: 1.5995, Train Acc: 0.5630, Val Loss: 1.6853, Val Acc: 0.5508
+2025-04-12 06:18:32,792 [INFO] Epoch 10/10, Train Loss: 1.5953, Train Acc: 0.5630, Val Loss: 1.6876, Val Acc: 0.5292
+2025-04-12 06:18:32,794 [INFO] conv2_padding=0, Val Acc: 0.5650
+2025-04-12 06:18:32,821 [INFO] Best conv2_padding: 0, Best Val Acc: 0.5650
+2025-04-12 06:18:32,821 [INFO] 
+Optimizing pool_size...
+2025-04-12 06:18:32,821 [INFO] Testing pool_size = 2
+2025-04-12 06:19:04,322 [INFO] Epoch 1/10, Train Loss: 2.0776, Train Acc: 0.4800, Val Loss: 2.1027, Val Acc: 0.4576
+2025-04-12 06:19:36,831 [INFO] Epoch 2/10, Train Loss: 1.8571, Train Acc: 0.5560, Val Loss: 1.9014, Val Acc: 0.5246
+2025-04-12 06:20:12,383 [INFO] Epoch 3/10, Train Loss: 1.7420, Train Acc: 0.5680, Val Loss: 1.7899, Val Acc: 0.5466
+2025-04-12 06:20:44,690 [INFO] Epoch 4/10, Train Loss: 1.7180, Train Acc: 0.5560, Val Loss: 1.7452, Val Acc: 0.5462
+2025-04-12 06:21:17,796 [INFO] Epoch 5/10, Train Loss: 1.6351, Train Acc: 0.5780, Val Loss: 1.6819, Val Acc: 0.5596
+2025-04-12 06:21:49,416 [INFO] Epoch 6/10, Train Loss: 1.6080, Train Acc: 0.5660, Val Loss: 1.6720, Val Acc: 0.5566
+2025-04-12 06:22:20,818 [INFO] Epoch 7/10, Train Loss: 1.5974, Train Acc: 0.5840, Val Loss: 1.6582, Val Acc: 0.5532
+2025-04-12 06:22:51,942 [INFO] Epoch 8/10, Train Loss: 1.5884, Train Acc: 0.5790, Val Loss: 1.6683, Val Acc: 0.5502
+2025-04-12 06:23:23,271 [INFO] Epoch 9/10, Train Loss: 1.5264, Train Acc: 0.6090, Val Loss: 1.5951, Val Acc: 0.5806
+2025-04-12 06:23:56,683 [INFO] Epoch 10/10, Train Loss: 1.5328, Train Acc: 0.5960, Val Loss: 1.6105, Val Acc: 0.5666
+2025-04-12 06:23:56,685 [INFO] pool_size=2, Val Acc: 0.5806
+2025-04-12 06:23:56,712 [INFO] Best pool_size: 2, Best Val Acc: 0.5806
+2025-04-12 06:23:56,712 [INFO] 
+Optimizing pool_stride...
+2025-04-12 06:23:56,712 [INFO] Testing pool_stride = 2
+2025-04-12 06:24:30,321 [INFO] Epoch 1/10, Train Loss: 2.0454, Train Acc: 0.4950, Val Loss: 2.0579, Val Acc: 0.4834
+2025-04-12 06:25:03,175 [INFO] Epoch 2/10, Train Loss: 1.8973, Train Acc: 0.5140, Val Loss: 1.9249, Val Acc: 0.4988
+2025-04-12 06:25:36,119 [INFO] Epoch 3/10, Train Loss: 1.8275, Train Acc: 0.5260, Val Loss: 1.8736, Val Acc: 0.5050
+2025-04-12 06:26:08,533 [INFO] Epoch 4/10, Train Loss: 1.7711, Train Acc: 0.5360, Val Loss: 1.8114, Val Acc: 0.5140
+2025-04-12 06:26:40,599 [INFO] Epoch 5/10, Train Loss: 1.6811, Train Acc: 0.5710, Val Loss: 1.7254, Val Acc: 0.5374
+2025-04-12 06:27:11,659 [INFO] Epoch 6/10, Train Loss: 1.6679, Train Acc: 0.5450, Val Loss: 1.7047, Val Acc: 0.5378
+2025-04-12 06:27:43,404 [INFO] Epoch 7/10, Train Loss: 1.6398, Train Acc: 0.5720, Val Loss: 1.6910, Val Acc: 0.5520
+2025-04-12 06:28:18,641 [INFO] Epoch 8/10, Train Loss: 1.6213, Train Acc: 0.5670, Val Loss: 1.6809, Val Acc: 0.5442
+2025-04-12 06:28:50,947 [INFO] Epoch 9/10, Train Loss: 1.6434, Train Acc: 0.5580, Val Loss: 1.7110, Val Acc: 0.5182
+2025-04-12 06:29:23,542 [INFO] Epoch 10/10, Train Loss: 1.6554, Train Acc: 0.5440, Val Loss: 1.7312, Val Acc: 0.5148
+2025-04-12 06:29:23,545 [INFO] pool_stride=2, Val Acc: 0.5520
+2025-04-12 06:29:23,572 [INFO] Best pool_stride: 2, Best Val Acc: 0.5520
+2025-04-12 06:29:23,573 [INFO] 
+Optimizing bn_epsilon...
+2025-04-12 06:29:23,573 [INFO] Testing bn_epsilon = 1e-05
+2025-04-12 06:29:55,233 [INFO] Epoch 1/10, Train Loss: 2.0582, Train Acc: 0.4880, Val Loss: 2.1090, Val Acc: 0.4624
+2025-04-12 06:30:27,266 [INFO] Epoch 2/10, Train Loss: 1.9028, Train Acc: 0.5190, Val Loss: 1.9716, Val Acc: 0.4984
+2025-04-12 06:30:58,560 [INFO] Epoch 3/10, Train Loss: 1.8187, Train Acc: 0.5460, Val Loss: 1.8567, Val Acc: 0.5044
+2025-04-12 06:31:29,913 [INFO] Epoch 4/10, Train Loss: 1.7163, Train Acc: 0.5530, Val Loss: 1.7778, Val Acc: 0.5362
+2025-04-12 06:32:01,567 [INFO] Epoch 5/10, Train Loss: 1.6852, Train Acc: 0.5620, Val Loss: 1.7348, Val Acc: 0.5460
+2025-04-12 06:32:33,245 [INFO] Epoch 6/10, Train Loss: 1.6400, Train Acc: 0.5640, Val Loss: 1.6926, Val Acc: 0.5484
+2025-04-12 06:33:06,596 [INFO] Epoch 7/10, Train Loss: 1.6107, Train Acc: 0.5710, Val Loss: 1.6763, Val Acc: 0.5494
+2025-04-12 06:33:38,401 [INFO] Epoch 8/10, Train Loss: 1.6047, Train Acc: 0.5890, Val Loss: 1.6868, Val Acc: 0.5452
+2025-04-12 06:34:10,822 [INFO] Epoch 9/10, Train Loss: 1.6036, Train Acc: 0.5840, Val Loss: 1.6662, Val Acc: 0.5482
+2025-04-12 06:34:42,580 [INFO] Epoch 10/10, Train Loss: 1.5956, Train Acc: 0.5700, Val Loss: 1.6533, Val Acc: 0.5568
+2025-04-12 06:34:42,584 [INFO] bn_epsilon=1e-05, Val Acc: 0.5568
+2025-04-12 06:34:42,611 [INFO] Testing bn_epsilon = 0.0001
+2025-04-12 06:35:14,065 [INFO] Epoch 1/10, Train Loss: 2.1292, Train Acc: 0.4610, Val Loss: 2.1424, Val Acc: 0.4488
+2025-04-12 06:35:46,363 [INFO] Epoch 2/10, Train Loss: 1.9392, Train Acc: 0.4990, Val Loss: 1.9547, Val Acc: 0.4972
+2025-04-12 06:36:20,962 [INFO] Epoch 3/10, Train Loss: 1.8043, Train Acc: 0.5430, Val Loss: 1.8566, Val Acc: 0.5228
+2025-04-12 06:36:53,519 [INFO] Epoch 4/10, Train Loss: 1.8048, Train Acc: 0.5270, Val Loss: 1.8516, Val Acc: 0.5126
+2025-04-12 06:37:26,138 [INFO] Epoch 5/10, Train Loss: 1.7071, Train Acc: 0.5530, Val Loss: 1.7557, Val Acc: 0.5454
+2025-04-12 06:37:57,873 [INFO] Epoch 6/10, Train Loss: 1.7198, Train Acc: 0.5350, Val Loss: 1.7855, Val Acc: 0.5200
+2025-04-12 06:38:30,230 [INFO] Epoch 7/10, Train Loss: 1.6609, Train Acc: 0.5580, Val Loss: 1.7285, Val Acc: 0.5422
+2025-04-12 06:39:02,200 [INFO] Epoch 8/10, Train Loss: 1.6702, Train Acc: 0.5580, Val Loss: 1.7311, Val Acc: 0.5460
+2025-04-12 06:39:34,801 [INFO] Epoch 9/10, Train Loss: 1.6533, Train Acc: 0.5770, Val Loss: 1.7168, Val Acc: 0.5530
+2025-04-12 06:40:09,325 [INFO] Epoch 10/10, Train Loss: 1.6458, Train Acc: 0.5700, Val Loss: 1.7128, Val Acc: 0.5524
+2025-04-12 06:40:09,328 [INFO] bn_epsilon=0.0001, Val Acc: 0.5530
+2025-04-12 06:40:09,357 [INFO] Best bn_epsilon: 1e-05, Best Val Acc: 0.5568
+2025-04-12 06:40:09,368 [INFO] Results saved to /home/spoil/cv/assignment01/experiments/results/hyperparam_results.csv
+2025-04-12 06:40:09,368 [INFO] Best hyperparameters: {'lr': 0.01, 'reg_lambda': 0.01, 'batch_size': 32, 'epochs': 10, 'lr_decay': 0.95, 'max_grad_norm': 5.0, 'val_batch_size': 32, 'conv1_filters': 32, 'kernel1_size': (3, 3), 'conv1_stride': 1, 'conv1_padding': 1, 'conv2_filters': 32, 'kernel2_size': (3, 3), 'conv2_stride': 1, 'conv2_padding': 0, 'pool_size': 2, 'pool_stride': 2, 'bn_epsilon': 1e-05}, Best Val Acc: 0.6042
+2025-04-12 06:40:41,365 [INFO] Epoch 1/10, Train Loss: 2.0609, Train Acc: 0.4820, Val Loss: 2.0734, Val Acc: 0.4722
+2025-04-12 06:41:14,170 [INFO] Epoch 2/10, Train Loss: 1.8588, Train Acc: 0.5180, Val Loss: 1.8981, Val Acc: 0.5168
+2025-04-12 06:41:45,676 [INFO] Epoch 3/10, Train Loss: 1.7900, Train Acc: 0.5420, Val Loss: 1.8230, Val Acc: 0.5230
+2025-04-12 06:42:17,723 [INFO] Epoch 4/10, Train Loss: 1.7807, Train Acc: 0.5340, Val Loss: 1.8127, Val Acc: 0.5140
+2025-04-12 06:42:48,810 [INFO] Epoch 5/10, Train Loss: 1.6924, Train Acc: 0.5650, Val Loss: 1.7399, Val Acc: 0.5440
+2025-04-12 06:43:20,097 [INFO] Epoch 6/10, Train Loss: 1.6702, Train Acc: 0.5690, Val Loss: 1.7324, Val Acc: 0.5474
+2025-04-12 06:43:52,352 [INFO] Epoch 7/10, Train Loss: 1.6568, Train Acc: 0.5600, Val Loss: 1.7362, Val Acc: 0.5374
+2025-04-12 06:44:26,773 [INFO] Epoch 8/10, Train Loss: 1.6241, Train Acc: 0.5710, Val Loss: 1.6903, Val Acc: 0.5394
+2025-04-12 06:44:59,321 [INFO] Epoch 9/10, Train Loss: 1.6073, Train Acc: 0.5710, Val Loss: 1.6737, Val Acc: 0.5478
+2025-04-12 06:45:34,438 [INFO] Epoch 10/10, Train Loss: 1.5801, Train Acc: 0.5860, Val Loss: 1.6623, Val Acc: 0.5566
+2025-04-12 06:45:35,474 [INFO] Test Accuracy: 0.5585
+2025-04-12 06:45:35,474 [INFO] Training completed.

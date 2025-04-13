@@ -1,0 +1,65 @@
+2025-04-12 02:57:56,399 [INFO] Starting CIFAR-10 training...
+2025-04-12 02:57:57,789 [INFO] Starting hyperparameter search...
+2025-04-12 02:57:57,789 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.1
+2025-04-12 02:57:59,621 [INFO] Epoch 1/5, Train Loss: 8.0796, Train Acc: 0.1820, Val Loss: 8.2191, Val Acc: 0.1620
+2025-04-12 02:58:00,297 [INFO] Epoch 2/5, Train Loss: 8.7094, Train Acc: 0.1650, Val Loss: 8.9346, Val Acc: 0.1280
+2025-04-12 02:58:00,998 [INFO] Epoch 3/5, Train Loss: 6.3798, Train Acc: 0.1770, Val Loss: 6.5684, Val Acc: 0.1400
+2025-04-12 02:58:01,706 [INFO] Epoch 4/5, Train Loss: 6.3492, Train Acc: 0.1300, Val Loss: 6.4009, Val Acc: 0.1460
+2025-04-12 02:58:02,388 [INFO] Epoch 5/5, Train Loss: 5.9218, Train Acc: 0.2190, Val Loss: 6.2215, Val Acc: 0.1700
+2025-04-12 02:58:02,393 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.01
+2025-04-12 02:58:03,078 [INFO] Epoch 1/5, Train Loss: 4.7853, Train Acc: 0.1960, Val Loss: 4.8344, Val Acc: 0.1920
+2025-04-12 02:58:03,759 [INFO] Epoch 2/5, Train Loss: 4.5390, Train Acc: 0.1820, Val Loss: 4.8230, Val Acc: 0.1480
+2025-04-12 02:58:04,454 [INFO] Epoch 3/5, Train Loss: 5.1456, Train Acc: 0.1450, Val Loss: 5.1797, Val Acc: 0.1100
+2025-04-12 02:58:05,148 [INFO] Epoch 4/5, Train Loss: 4.2393, Train Acc: 0.1480, Val Loss: 4.3892, Val Acc: 0.1640
+2025-04-12 02:58:05,840 [INFO] Epoch 5/5, Train Loss: 5.3271, Train Acc: 0.1780, Val Loss: 5.7933, Val Acc: 0.1560
+2025-04-12 02:58:05,842 [INFO] 
+ Hyperparameters: lr=0.1, reg=0.001
+2025-04-12 02:58:06,542 [INFO] Epoch 1/5, Train Loss: 4.7378, Train Acc: 0.1420, Val Loss: 4.8367, Val Acc: 0.1460
+2025-04-12 02:58:07,299 [INFO] Epoch 2/5, Train Loss: 3.2847, Train Acc: 0.2020, Val Loss: 3.2574, Val Acc: 0.1660
+2025-04-12 02:58:08,024 [INFO] Epoch 3/5, Train Loss: 3.6773, Train Acc: 0.1860, Val Loss: 3.9698, Val Acc: 0.1260
+2025-04-12 02:58:08,712 [INFO] Epoch 4/5, Train Loss: 5.0572, Train Acc: 0.1170, Val Loss: 5.2046, Val Acc: 0.1280
+2025-04-12 02:58:09,372 [INFO] Epoch 5/5, Train Loss: 3.5539, Train Acc: 0.1970, Val Loss: 3.8430, Val Acc: 0.1360
+2025-04-12 02:58:09,374 [INFO] 
+ Hyperparameters: lr=0.01, reg=0.1
+2025-04-12 02:58:10,047 [INFO] Epoch 1/5, Train Loss: 9.2968, Train Acc: 0.3120, Val Loss: 9.4694, Val Acc: 0.2240
+2025-04-12 02:58:10,771 [INFO] Epoch 2/5, Train Loss: 8.6167, Train Acc: 0.3890, Val Loss: 8.8998, Val Acc: 0.2520
+2025-04-12 02:58:11,505 [INFO] Epoch 3/5, Train Loss: 8.1529, Train Acc: 0.4100, Val Loss: 8.4718, Val Acc: 0.2700
+2025-04-12 02:58:12,203 [INFO] Epoch 4/5, Train Loss: 7.6678, Train Acc: 0.4670, Val Loss: 8.0677, Val Acc: 0.3220
+2025-04-12 02:58:12,900 [INFO] Epoch 5/5, Train Loss: 7.2987, Train Acc: 0.5230, Val Loss: 7.7179, Val Acc: 0.3320
+2025-04-12 02:58:12,903 [INFO] 
+ Hyperparameters: lr=0.01, reg=0.01
+2025-04-12 02:58:13,554 [INFO] Epoch 1/5, Train Loss: 2.8165, Train Acc: 0.2610, Val Loss: 2.9919, Val Acc: 0.2200
+2025-04-12 02:58:14,246 [INFO] Epoch 2/5, Train Loss: 2.5575, Train Acc: 0.3430, Val Loss: 2.8513, Val Acc: 0.2580
+2025-04-12 02:58:14,931 [INFO] Epoch 3/5, Train Loss: 2.4044, Train Acc: 0.4060, Val Loss: 2.7319, Val Acc: 0.2780
+2025-04-12 02:58:15,607 [INFO] Epoch 4/5, Train Loss: 2.2673, Train Acc: 0.4690, Val Loss: 2.6436, Val Acc: 0.3320
+2025-04-12 02:58:16,282 [INFO] Epoch 5/5, Train Loss: 2.1869, Train Acc: 0.4770, Val Loss: 2.6095, Val Acc: 0.3140
+2025-04-12 02:58:16,284 [INFO] 
+ Hyperparameters: lr=0.01, reg=0.001
+2025-04-12 02:58:17,003 [INFO] Epoch 1/5, Train Loss: 2.0990, Train Acc: 0.2970, Val Loss: 2.3352, Val Acc: 0.1940
+2025-04-12 02:58:17,697 [INFO] Epoch 2/5, Train Loss: 1.7853, Train Acc: 0.3810, Val Loss: 2.1497, Val Acc: 0.2760
+2025-04-12 02:58:18,365 [INFO] Epoch 3/5, Train Loss: 1.7110, Train Acc: 0.4310, Val Loss: 2.1261, Val Acc: 0.3040
+2025-04-12 02:58:19,034 [INFO] Epoch 4/5, Train Loss: 1.5755, Train Acc: 0.4750, Val Loss: 2.0727, Val Acc: 0.3320
+2025-04-12 02:58:19,740 [INFO] Epoch 5/5, Train Loss: 1.5308, Train Acc: 0.4980, Val Loss: 2.0565, Val Acc: 0.3240
+2025-04-12 02:58:19,742 [INFO] 
+ Hyperparameters: lr=0.001, reg=0.1
+2025-04-12 02:58:20,441 [INFO] Epoch 1/5, Train Loss: 9.8390, Train Acc: 0.1020, Val Loss: 9.8122, Val Acc: 0.1020
+2025-04-12 02:58:21,123 [INFO] Epoch 2/5, Train Loss: 9.6324, Train Acc: 0.1340, Val Loss: 9.6670, Val Acc: 0.1140
+2025-04-12 02:58:21,820 [INFO] Epoch 3/5, Train Loss: 9.4782, Train Acc: 0.1640, Val Loss: 9.5503, Val Acc: 0.1120
+2025-04-12 02:58:22,519 [INFO] Epoch 4/5, Train Loss: 9.3435, Train Acc: 0.1880, Val Loss: 9.4492, Val Acc: 0.1220
+2025-04-12 02:58:23,243 [INFO] Epoch 5/5, Train Loss: 9.2284, Train Acc: 0.2030, Val Loss: 9.3559, Val Acc: 0.1260
+2025-04-12 02:58:23,247 [INFO] 
+ Hyperparameters: lr=0.001, reg=0.01
+2025-04-12 02:58:23,953 [INFO] Epoch 1/5, Train Loss: 3.3368, Train Acc: 0.1260, Val Loss: 3.3422, Val Acc: 0.1120
+2025-04-12 02:58:24,735 [INFO] Epoch 2/5, Train Loss: 3.1943, Train Acc: 0.1440, Val Loss: 3.2443, Val Acc: 0.1340
+2025-04-12 02:58:25,465 [INFO] Epoch 3/5, Train Loss: 3.0985, Train Acc: 0.1710, Val Loss: 3.1766, Val Acc: 0.1380
+2025-04-12 02:58:26,200 [INFO] Epoch 4/5, Train Loss: 3.0252, Train Acc: 0.1900, Val Loss: 3.1298, Val Acc: 0.1600
+2025-04-12 02:58:26,887 [INFO] Epoch 5/5, Train Loss: 2.9655, Train Acc: 0.2130, Val Loss: 3.0888, Val Acc: 0.1720
+2025-04-12 02:58:26,890 [INFO] 
+ Hyperparameters: lr=0.001, reg=0.001
+2025-04-12 02:58:27,596 [INFO] Epoch 1/5, Train Loss: 2.6744, Train Acc: 0.1390, Val Loss: 2.8028, Val Acc: 0.1120
+2025-04-12 02:58:27,378 [INFO] Epoch 2/5, Train Loss: 2.4850, Train Acc: 0.1690, Val Loss: 2.6057, Val Acc: 0.1380
+2025-04-12 02:58:28,090 [INFO] Epoch 3/5, Train Loss: 2.3794, Train Acc: 0.1890, Val Loss: 2.5110, Val Acc: 0.1500
+2025-04-12 02:58:28,857 [INFO] Epoch 4/5, Train Loss: 2.3073, Train Acc: 0.2160, Val Loss: 2.4502, Val Acc: 0.1680
+2025-04-12 02:58:29,647 [INFO] Epoch 5/5, Train Loss: 2.2514, Train Acc: 0.2270, Val Loss: 2.4110, Val Acc: 0.1740
