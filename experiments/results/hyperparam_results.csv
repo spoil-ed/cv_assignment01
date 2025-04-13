@@ -1,6 +1,0 @@
-lr,reg_lambda,batch_size,epochs,lr_decay,max_grad_norm,val_batch_size,conv1_filters,kernel1_size,conv1_stride,conv1_padding,conv2_filters,kernel2_size,conv2_stride,conv2_padding,pool_size,pool_stride,bn_epsilon,max_val_acc,param_tested
-0.015,0.01,32,5,0.95,5.0,32,16,"(3, 3)",1,1,16,"(3, 3)",1,0,2,2,1e-05,0.512,lr
-0.01,0.01,32,5,0.95,5.0,32,16,"(3, 3)",1,1,16,"(3, 3)",1,0,2,2,1e-05,0.536,lr
-0.0095,0.01,32,5,0.95,5.0,32,16,"(3, 3)",1,1,16,"(3, 3)",1,0,2,2,1e-05,0.528,lr
-0.01,0.01,32,5,0.9,5.0,32,16,"(3, 3)",1,1,16,"(3, 3)",1,0,2,2,1e-05,0.546,lr_decay
-0.01,0.01,32,5,0.95,5.0,32,16,"(3, 3)",1,1,16,"(3, 3)",1,0,2,2,1e-05,0.512,lr_decay
