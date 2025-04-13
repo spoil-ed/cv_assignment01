@@ -18,10 +18,10 @@ def get_project_paths():
         'experiments_dir': os.path.join(project_root, 'experiments'),
         'logs_dir': os.path.join(project_root, 'experiments', 'logs'),
         'plots_dir': os.path.join(project_root, 'experiments', 'plots'),
-        'weights_path': os.path.join(project_root, 'experiments', 'best_model_weights.npz'),
-        'hyperparam_lr_reg_path': os.path.join(project_root, 'experiments', 'hyperparam_lr_reg.npz'),
-        'hyperparam_conv_filters_path': os.path.join(project_root, 'experiments', 'hyperparam_conv_filters.npz'),
-        'hyperparam_conv_filters_equal_path': os.path.join(project_root, 'experiments', 'hyperparam_conv_filters_equal.npz'),
+        'weights_path': os.path.join(project_root, 'experiments', 'results', 'best_model_weights.npz'),
+        'hyperparam_lr_reg_path': os.path.join(project_root, 'experiments', 'results', 'hyperparam_lr_reg.npz'),
+        'hyperparam_conv_filters_path': os.path.join(project_root, 'experiments', 'results', 'hyperparam_conv_filters.npz'),
+        'hyperparam_conv_filters_equal_path': os.path.join(project_root, 'experiments', 'results', 'hyperparam_conv_filters_equal.npz'),
         'data_npz_path': os.path.join(project_root, 'experiments', 'data.npz'),
     }
 

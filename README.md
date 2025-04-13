@@ -3,7 +3,24 @@
 本项目实现了一个基于 CuPy（GPU 加速）的三层卷积神经网络（CNN），用于 CIFAR-10 数据集的图像分类。网络包括卷积层、批归一化、ReLU 激活、最大池化和全连接层，支持完整的训练、预测和可视化功能。
 
 ## 项目目录结构
-
+```
+├── data/
+│   └── cifar-10-batches-py/
+├── experiments/
+│   ├── results/
+│   │   └── best_model_weights.npz
+│   ├── logs/
+│   └── plots/
+├── src/
+│   ├── model.py
+│   ├── train.py
+│   ├── predict.py
+│   ├── visualize.py
+│   └── utils.py
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
 - `data/`: 用于存放 CIFAR-10 数据集（默认路径：`data/cifar-10-batches-py/`）。
 - `experiments/`: 存储训练结果，包括权重（`best_model_weights.npz`）、日志（`logs/`）、可视化图表（`plots/`）和超参数调优数据。
 - `src/`: 包含核心代码文件：
@@ -12,17 +29,9 @@
   - `predict.py`: 支持对测试集或单张图像进行预测，输出类别概率和准确率。
   - `visualize.py`: 生成可视化结果，包括训练曲线、卷积核、权重分布、批归一化参数、类别准确率和超参数调优热图。
   - `utils.py`: 提供工具函数，包括 CIFAR-10 数据加载和日志设置。
-- `src_numpy/`: 可能是基于 NumPy 的代码版本（未使用）。
 - `.gitignore`: Git 忽略文件。
 - `README.md`: 项目说明文档。
 - `requirements.txt`: 项目依赖库列表。
-
-## 功能亮点
-
-- **高效计算**: 使用 CuPy 实现 GPU 加速，优化卷积和矩阵运算。
-- **超参数调优**: 支持学习率、正则化系数和卷积核数量的网格搜索。
-- **丰富可视化**: 提供损失曲线、卷积核可视化、权重热图、参数分布和类别准确率图。
-- **模块化设计**: 代码结构清晰，便于扩展和修改。
 
 ## 安装与依赖
 
